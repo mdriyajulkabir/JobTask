@@ -1,0 +1,32 @@
+.tuketici-container{
+    background-color: #695de9;
+    padding: 103px 0 107px;
+    text-align: center;
+    font-family: 'Roboto',;
+}
+.tuketici-container h1{
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.tuketici-container h5{
+    font-weight: 500;
+    line-height: 1.3;
+    color: #fff;
+    padding: 0 2%;
+}
+.tuketici-container button{
+    padding: 15px 35px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #272635;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: .5px;
+    margin-top: 30px;
+}
+.tuketici-container button:hover{
+    background-color: #272635;
+    color: #fff;
+}
