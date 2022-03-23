@@ -1,5 +1,5 @@
 import React from "react";
-import rankUp from '../../../../images/rank-up.svg'
+import rankUp from "../../../../images/rank-up.svg";
 import "./Item.css";
 const Item = (props) => {
   const { id, name, subName, img, rating } = props.item;
@@ -7,8 +7,9 @@ const Item = (props) => {
     <div className="item-container">
       <div className="row w-100">
         <div className="col-lg-1 col-sm-1 position-div">
-          
-          <div className="position-bg"><img src={rankUp} alt="" /></div>
+          <div className="position-bg">
+            <img src={rankUp} alt="" />
+          </div>
         </div>
         <div className="col-lg-2 col-sm-3 img-container">
           <img src={img} className="item-img" alt="" />

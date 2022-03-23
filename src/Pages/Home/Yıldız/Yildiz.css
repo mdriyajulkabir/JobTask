@@ -1,49 +1,70 @@
-.yiliz-container{
-    background-color: #272635;
-    padding: 60px 0;
+.yiliz-container {
+  background-color: #272635;
+  padding: 60px 30px;
+  margin-bottom: 50px;
+  border-radius: 0px 0px 140px 0px;
 }
-.yiliz-container>h1{
-    text-align: center;
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 55px;
-    margin-bottom: 50px;
+.yiliz-container > h1 {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 55px;
+  margin-bottom: 50px;
 }
-.yiliz-container>p{
-color: #7c7b85;
-letter-spacing: .05rem;
-text-align: center;
-margin-top: 50px;
-margin-bottom: 40px;
+.yiliz-container > p {
+  color: #7c7b85;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
-.form-select{
-    border: none;
-    padding: 10px 0;
-    padding-left: 25px;
-    margin-left: 50px;
-    margin-right: 10px;
-    color: #777586;
-    cursor: pointer;
-    border-radius: 50px;
-    background-color: #3a384a;
+.form-select {
+  border: none;
+  padding: 10px 0;
+  padding-left: 25px;
+  margin-left: 50px;
+  margin-right: 10px;
+  color: #777586;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #3a384a;
 }
-.form-select:hover{
-border: 1px solid #b2c1f6;
-
+.form-select:hover {
+  border: 1px solid #b2c1f6;
 }
-.form-select>option{
-    background-color: #fff;
+.form-select > option {
+  background-color: #fff;
 }
-.check-div{
-    color: #fff;
-    margin-left: 45px;
+.check-div {
+  color: #fff;
+  margin-left: 45px;
 }
-.check-div>input{
-    font-size: 20px;
-    margin-right: 10px;
+.check-div > input {
+  font-size: 20px;
+  margin-right: 10px;
 }
-.check-div{
-    display: flex;
-    align-items: center;
-
+.check-div {
+  display: flex;
+  align-items: center;
+}
+.item-div {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.yiliz-container > button {
+  padding: 15px 55px;
+  border: 1px solid #afb0b6;
+  background-color: #272635;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 40px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 40px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+.yiliz-container > button:hover {
+  background-color: #fff;
+  color: #272735;
 }

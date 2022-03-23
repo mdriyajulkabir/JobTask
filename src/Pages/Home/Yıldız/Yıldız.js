@@ -3,11 +3,11 @@ import Item from "./Item/Item";
 import "./Yildiz.css";
 const Yıldız = () => {
   const [items, setItems] = useState([]);
-  useEffect(()=>{
-    fetch('output.json')
-    .then(res=> res.json())
-    .then(data=>setItems(data))
-  },[])
+  useEffect(() => {
+    fetch("output.json")
+      .then((res) => res.json())
+      .then((data) => setItems(data));
+  }, []);
   return (
     <div className="yiliz-container">
       <h1>Yıldız Sıralaması</h1>
@@ -40,19 +40,21 @@ const Yıldız = () => {
             id="flexRadioDefault2"
           />
           <label class="form-check-label" for="flexRadioDefault2">
-          Tüm Zamanlar
+            Tüm Zamanlar
           </label>
         </div>
       </div>
-      <p>Bu sıralama, firmaların büyüklükleri, şikayet sayıları ve şikayet oranlarından bağımsız olarak sadece <br /> şikayetçi memnuniyeti puanlarına göre yapılmaktadır.</p>
-      {
-        items.map(item=> <Item
-        key={items.id}
-        item={item}
-        >
-
-        </Item>)
-      }
+      <p>
+        Bu sıralama, firmaların büyüklükleri, şikayet sayıları ve şikayet
+        oranlarından bağımsız olarak sadece <br /> şikayetçi memnuniyeti
+        puanlarına göre yapılmaktadır.
+      </p>
+      <div className="item-div">
+        {items.map((item) => (
+          <Item key={item.id} item={item} />
+        ))}
+      </div>
+      <button>Devamını Göster</button>
     </div>
   );
 };
