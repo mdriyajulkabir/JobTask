@@ -1,0 +1,22 @@
+.header-img{
+    width: 60%;
+    margin: auto;
+}
+.unactive{
+    text-decoration: none;
+    color: #afb0b6;
+    font-weight: 600;
+    padding-right: 10px;
+}
+.unactive:hover{
+    color: #3a384a;
+    text-decoration: none;
+}
+.active{
+    color: #3a384a;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.active:hover{
+    color: #3a384a;
+}

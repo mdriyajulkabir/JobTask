@@ -1,0 +1,10 @@
+.slider-main-container{
+    background-color: #f4f5f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.slider-main-container>h1{
+    color: #85878e;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
