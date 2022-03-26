@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../../../images/logoBlack.svg';
+import Modals from '../Modals/Modals';
 import './Header.css';
 const Header = () => {
     return (
@@ -25,7 +26,7 @@ const Header = () => {
         
       </ul>
       <div>
-      
+      <Modals />
       </div>
     </div>
   </div>

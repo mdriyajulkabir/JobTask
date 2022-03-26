@@ -32,7 +32,10 @@
     border: 1px solid #afb0b6;
     background-color: #3ad08f;
     position: absolute;
-    right: 0%;
+    right: 15%;
+}
+#btn-search{
+    display: none;
 }
 
 @media screen and (max-width: 415px) {
@@ -48,7 +51,7 @@
         margin-bottom: 10px;
     }
     .banner-header input{
-        padding: 0 65px 8px 40px;
+        padding: 0 53px 8px 40px;
         margin-left: 20px;
         border-radius: 40px;
         border: none;
@@ -61,6 +64,7 @@
         display: none;
     }
     #btn-search{
+        display: block;
         outline: none;
         border: none;
         position: absolute;

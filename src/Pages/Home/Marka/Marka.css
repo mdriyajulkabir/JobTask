@@ -54,10 +54,10 @@
     width: 142px;
     background-color: #695de9;
     border-radius: 50%/0 0 100% 100%;
-    transform: rotate(46.99deg);
+    transform: rotate(50deg);
     position: absolute;
     right: 25%;
-    bottom: 57%;
+    bottom: 57.5%;
   }
   .full-circle{
     height: 108.81px;
@@ -65,18 +65,18 @@
     border-radius: 61.81px;
     background-color: #3ad08f;
     position: absolute;
-    right: 7%;
-    bottom: 34%;
+    right: 6%;
+    bottom: 32.5%;
   }
   .line{
     height: 16px;
-    width: 322px;
+    width: 342px;
     background-color: #fff;
-    transform: rotate(21.5deg);
+    transform: rotate(20.5deg);
     display: block;
     position: absolute;
     right: 7%;
-    bottom: 39%;
+    bottom: 39.5%;
   }
 .arrow{
     width: 0;

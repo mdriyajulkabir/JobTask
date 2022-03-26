@@ -38,7 +38,7 @@
     background-color: #53e1a4;
     position: absolute;
     top: 12.1%;
-    right: 18%;
+    right: 16.1%;
 }
 .gray-circle{
    width: 265px;
@@ -58,7 +58,7 @@
    position: absolute;
    right: -9%;
    top: 45%;
-   transform: rotate(-33deg);
+   transform: rotate(-34deg);
 }
 .yellow-circle{
     width: 60px;
@@ -67,7 +67,7 @@
     background-color: #fcc915;
     position: absolute;
     bottom: 0%;
-    right: 20.2%;
+    right: 17.2%;
 }
 .green-half-circle{
     background-color: #53e1a4;
@@ -82,6 +82,6 @@
 .video-img{
     width: 675px;
     height: 381px;
-    margin-left: 45px;
+    margin-left: 105px;
     position: relative;
 }
