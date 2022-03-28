@@ -21,7 +21,7 @@ const Header = () => {
          <NavLink to='/karsilastir' className={(navinfo) => navinfo.isActive ? "active" : "unactive"}>Marka Karşılaştır</NavLink>
         </li>
         <li class="nav-item ">
-          <NavLink to='trend-100' className={(navinfo) => navinfo.isActive ? "active" : "unactive"}>Trend 100</NavLink>
+          <NavLink to='/trend-100' className={(navinfo) => navinfo.isActive ? "active" : "unactive"}>Trend 100</NavLink>
         </li>
         
       </ul>

@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./Pages/Home/Home";
 import Sikayetler from "./Pages/Sikayetler/Sikayetler";
 import MarkaKarsilastir from "./Pages/MarkaKarsillastir/MarkaKarsilastir";
+import Trend100 from "./Pages/Trend100/Trend100";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/sikayetler" element={<Sikayetler/>} />
         <Route path="/karsilastir" element={<MarkaKarsilastir/>} />
+        <Route path="/trend-100" element={<Trend100/>} />
       </Routes>
       </BrowserRouter>
     </div>

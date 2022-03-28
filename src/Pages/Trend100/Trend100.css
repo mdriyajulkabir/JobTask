@@ -1,0 +1,51 @@
+body{
+    font-family: system-ui;
+}
+.t-t{
+    line-height: 1.1;
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #272635;
+}
+.t-text{
+    color: #7c7b85;
+    font-family: Metropolis,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+.social_icon{
+    display: flex;
+}
+.social_icon p{
+    margin-left: 17px;
+}
+.i-icon{
+    font-size: 35px;
+    border-radius: 30px;
+    color: #272635;
+}
+.i-icon:hover{
+    color: #afb0b6;
+    cursor: pointer;
+}
+.tt-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.t-all{
+    background: #f4f5f9;
+    border-radius: 27px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 680px) {
+    .social_icon{
+        display: block;
+    }
+    .tt-text{
+        display: block;
+    }
+}

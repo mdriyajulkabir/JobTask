@@ -1,0 +1,213 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/F0gWkZH/b-removebg-preview.png",
+      "title": "Bete Lojistik",
+      "description": "Kargo-Kurye ve Lojistik",
+      "graph_img": "https://i.ibb.co/r5qX5p7/download.png",
+      "percent": 723,
+      "count_no": "-",
+      "verification_img": ""
+    },
+    {
+      "id": 2,
+      "image": "https://files.sikayetvar.com/lg/cmp/71/71002.png?1524554424",
+      "title": "Yolcu360",
+      "description": "Seri İlan ve Pazarlama Siteleri",
+      "graph_img": "https://i.ibb.co/FgN66Vw/img2.png",
+      "percent": 418,
+      "count_no": "-",
+      "verification_img": "https://cdn.sikayetvar.com/public/images/company/subscribed.svg"
+    },
+    {
+      "id": 3,
+      "image": "https://files.sikayetvar.com/lg/cmp/14/14326.png?1522650125",
+      "title": "Kaan Çapa",
+      "description": "Tarım-Hayvancılık Markaları",
+      "graph_img": "https://i.ibb.co/FYHcrPM/img-2.png",
+      "percent": 305,
+      "count_no": "2",
+      "count_img": "https://cdn.sikayetvar.com/public/images/trend-down.svg",
+      "verification_img": "https://cdn.sikayetvar.com/public/images/company/subscribed.svg"
+    },
+    {
+      "id": 4,
+      "image": "https://files.sikayetvar.com/lg/cmp/23/230917.png?1645710036",
+      "title": "Deterjanpazari.com",
+      "description": "E-Ticaret Sağlık-Hijyen ve Kişisel Bakım Ürün Siteleri",
+      "graph_img": "https://i.ibb.co/fM5wS7j/img4.png",
+      "percent": 262,
+      "count_no": "3",
+      "count_img": "https://cdn.sikayetvar.com/public/images/trend-down.svg",
+      "verification_img": ""
+    },
+    {
+      "id": 5,
+      "image": "https://files.sikayetvar.com/lg/cmp/13/13010.jpg?1522650125",
+      "title": "G-Star",
+      "description": "Giyim Mağazaları",
+      "graph_img": "https://i.ibb.co/LzZ79Sw/img5.png",
+      "percent": 230,
+      "count_no": "9",
+      "count_img": "https://cdn.sikayetvar.com/public/images/trend-up.svg",
+      "verification_img": ""
+    },
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/F0gWkZH/b-removebg-preview.png",
+      "title": "Bete Lojistik",
+      "description": "Kargo-Kurye ve Lojistik",
+      "graph_img": "https://i.ibb.co/r5qX5p7/download.png",
+      "percent": 723,
+      "count_no": "-",
+      "verification_img": ""
+    },
+    {
+      "id": 2,
+      "image": "https://files.sikayetvar.com/lg/cmp/71/71002.png?1524554424",
+      "title": "Yolcu360",
+      "description": "Seri İlan ve Pazarlama Siteleri",
+      "graph_img": "https://i.ibb.co/FgN66Vw/img2.png",
+      "percent": 418,
+      "count_no": "-",
+      "verification_img": "https://cdn.sikayetvar.com/public/images/company/subscribed.svg"
+    },
+    {
+      "id": 3,
+      "image": "https://files.sikayetvar.com/lg/cmp/14/14326.png?1522650125",
+      "title": "Kaan Çapa",
+      "description": "Tarım-Hayvancılık Markaları",
+      "graph_img": "https://i.ibb.co/FYHcrPM/img-2.png",
+      "percent": 305,
+      "count_no": "2",
+      "count_img": "https://cdn.sikayetvar.com/public/images/trend-down.svg",
+      "verification_img": "https://cdn.sikayetvar.com/public/images/company/subscribed.svg"
+    },
+    {
+      "id": 4,
+      "image": "https://files.sikayetvar.com/lg/cmp/23/230917.png?1645710036",
+      "title": "Deterjanpazari.com",
+      "description": "E-Ticaret Sağlık-Hijyen ve Kişisel Bakım Ürün Siteleri",
+      "graph_img": "https://i.ibb.co/fM5wS7j/img4.png",
+      "percent": 262,
+      "count_no": "3",
+      "count_img": "https://cdn.sikayetvar.com/public/images/trend-down.svg",
+      "verification_img": ""
+    },
+    {
+      "id": 5,
+      "image": "https://files.sikayetvar.com/lg/cmp/13/13010.jpg?1522650125",
+      "title": "G-Star",
+      "description": "Giyim Mağazaları",
+      "graph_img": "https://i.ibb.co/LzZ79Sw/img5.png",
+      "percent": 230,
+      "count_no": "9","count_img": "https://cdn.sikayetvar.com/public/images/trend-up.svg",
+      "verification_img": ""
+    },
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/F0gWkZH/b-removebg-preview.png",
+      "title": "Bete Lojistik",
+      "description": "Kargo-Kurye ve Lojistik",
+      "graph_img": "https://i.ibb.co/r5qX5p7/download.png",
+      "percent": 723,
+      "count_no": "-",
+      "verification_img": ""
+    },
+    {
+      "id": 2,
+      "image": "https://files.sikayetvar.com/lg/cmp/71/71002.png?1524554424",
+      "title": "Yolcu360",
+      "description": "Seri İlan ve Pazarlama Siteleri",
+      "graph_img": "https://i.ibb.co/FgN66Vw/img2.png",
+      "percent": 418,
+      "count_no": "-",
+      "verification_img": "https://cdn.sikayetvar.com/public/images/company/subscribed.svg"
+    },
+    {
+      "id": 3,
+      "image": "https://files.sikayetvar.com/lg/cmp/14/14326.png?1522650125",
+      "title": "Kaan Çapa",
+      "description": "Tarım-Hayvancılık Markaları",
+      "graph_img": "https://i.ibb.co/FYHcrPM/img-2.png",
+      "percent": 305,
+      "count_no": "2",
+      "count_img": "https://cdn.sikayetvar.com/public/images/trend-down.svg",
+      "verification_img": "https://cdn.sikayetvar.com/public/images/company/subscribed.svg"
+    },
+    {
+      "id": 4,
+      "image": "https://files.sikayetvar.com/lg/cmp/23/230917.png?1645710036",
+      "title": "Deterjanpazari.com",
+      "description": "E-Ticaret Sağlık-Hijyen ve Kişisel Bakım Ürün Siteleri",
+      "graph_img": "https://i.ibb.co/fM5wS7j/img4.png",
+      "percent": 262,
+      "count_no": "3",
+      "count_img": "https://cdn.sikayetvar.com/public/images/trend-down.svg",
+      "verification_img": ""
+    },
+    {
+      "id": 5,
+      "image": "https://files.sikayetvar.com/lg/cmp/13/13010.jpg?1522650125",
+      "title": "G-Star",
+      "description": "Giyim Mağazaları",
+      "graph_img": "https://i.ibb.co/LzZ79Sw/img5.png",
+      "percent": 230,
+      "count_no": "9",
+      "count_img": "https://cdn.sikayetvar.com/public/images/trend-up.svg",
+      "verification_img": ""
+    },
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/F0gWkZH/b-removebg-preview.png",
+      "title": "Bete Lojistik",
+      "description": "Kargo-Kurye ve Lojistik",
+      "graph_img": "https://i.ibb.co/r5qX5p7/download.png",
+      "percent": 723,
+      "count_no": "-",
+      "verification_img": ""
+    },
+    {
+      "id": 2,
+      "image": "https://files.sikayetvar.com/lg/cmp/71/71002.png?1524554424",
+      "title": "Yolcu360",
+      "description": "Seri İlan ve Pazarlama Siteleri",
+      "graph_img": "https://i.ibb.co/FgN66Vw/img2.png",
+      "percent": 418,
+      "count_no": "-",
+      "verification_img": "https://cdn.sikayetvar.com/public/images/company/subscribed.svg"
+    },
+    {
+      "id": 3,
+      "image": "https://files.sikayetvar.com/lg/cmp/14/14326.png?1522650125",
+      "title": "Kaan Çapa",
+      "description": "Tarım-Hayvancılık Markaları",
+      "graph_img": "https://i.ibb.co/FYHcrPM/img-2.png",
+      "percent": 305,
+      "count_no": "2",
+      "count_img": "https://cdn.sikayetvar.com/public/images/trend-down.svg",
+      "verification_img": "https://cdn.sikayetvar.com/public/images/company/subscribed.svg"
+    },
+    {
+      "id": 4,
+      "image": "https://files.sikayetvar.com/lg/cmp/23/230917.png?1645710036",
+      "title": "Deterjanpazari.com",
+      "description": "E-Ticaret Sağlık-Hijyen ve Kişisel Bakım Ürün Siteleri",
+      "graph_img": "https://i.ibb.co/fM5wS7j/img4.png",
+      "percent": 262,
+      "count_no": "3",
+      "count_img": "https://cdn.sikayetvar.com/public/images/trend-down.svg",
+      "verification_img": ""
+    },
+    {
+      "id": 5,
+      "image": "https://files.sikayetvar.com/lg/cmp/13/13010.jpg?1522650125",
+      "title": "G-Star",
+      "description": "Giyim Mağazaları",
+      "graph_img": "https://i.ibb.co/LzZ79Sw/img5.png",
+      "percent": 230,
+      "count_no": "9",
+      "count_img": "https://cdn.sikayetvar.com/public/images/trend-up.svg",
+      "verification_img": ""
+    }
+  ]
