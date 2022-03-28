@@ -400,15 +400,19 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-          <div>
-              <ul className="d-flex">
-                  <li className="pe-3"><a href="#gizlilik">Gizililik</a></li>
-                  <li><a href="#gizlilik">Kullanmim Sartlari</a></li>
-              </ul>
-          </div>
-          <div>
-              <span>&copy;2022 Şikayetvar. Her hakkı saklıdır.</span>
-          </div>
+        <div>
+          <ul className="d-flex">
+            <li className="pe-3">
+              <a href="#gizlilik">Gizililik</a>
+            </li>
+            <li>
+              <a href="#gizlilik">Kullanmim Sartlari</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <span>&copy;2022 Şikayetvar. Her hakkı saklıdır.</span>
+        </div>
       </div>
     </div>
   );

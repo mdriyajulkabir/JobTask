@@ -1,7 +1,7 @@
-.popular-header{
-    color: #85878e;
-    margin-left: 60px;
-    margin-top: 30px;
+.popular-header {
+  color: #85878e;
+  margin-left: 60px;
+  margin-top: 30px;
 }
 .popular-card-container {
   padding: 0px 60px;
@@ -26,18 +26,18 @@
   font-weight: 700;
   font-size: 17px;
 }
-#popular-btn{
-    background-color: #f4f5f9;
-    color: #7c7b85;
-    border: 1.5px solid #d1d2d7;
-    border-radius: 30px;
-    margin-top: 2px;
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 25px;
-    padding: 10px;
+#popular-btn {
+  background-color: #f4f5f9;
+  color: #7c7b85;
+  border: 1.5px solid #d1d2d7;
+  border-radius: 30px;
+  margin-top: 2px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  padding: 10px;
 }
-#popular-btn:hover{
-    background-color: #afb0b6;
-    color: #fff;
+#popular-btn:hover {
+  background-color: #afb0b6;
+  color: #fff;
 }

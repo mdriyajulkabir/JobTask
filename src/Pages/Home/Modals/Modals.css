@@ -1,121 +1,121 @@
-.modal-button{
-    background-color: #f8f9fa !important;
-    color: #7c7b85;
-    cursor: pointer;
-    border: none;
+.modal-button {
+  background-color: #f8f9fa !important;
+  color: #7c7b85;
+  cursor: pointer;
+  border: none;
 }
-.modal-button:hover{
-    color: #3a384a;
-    border: none !important;
+.modal-button:hover {
+  color: #3a384a;
+  border: none !important;
 }
-.modals{
-    padding: 0px !important;
-    border-radius: 40px !important;
-    margin-left: 120px;
-    height: 90% !important;
-    width: 75%;
-    background-color: #f4f5f9;
+.modals {
+  padding: 0px !important;
+  border-radius: 40px !important;
+  margin-left: 120px;
+  height: 90% !important;
+  width: 75%;
+  background-color: #f4f5f9;
 }
-.pattern-img-container{
-    padding: 0px;
+.pattern-img-container {
+  padding: 0px;
 }
-.modal-body{
-    background-color: #f4f5f9;
-    overflow-y: hidden;
+.modal-body {
+  background-color: #f4f5f9;
+  overflow-y: hidden;
 }
-.pattern-img{
-    margin: 0;
-    border-radius: 0px 0px 0px 50px;
-    width: 100%;
-    height: 560px;
-    position: relative;
-    left: -9%;
+.pattern-img {
+  margin: 0;
+  border-radius: 0px 0px 0px 50px;
+  width: 100%;
+  height: 560px;
+  position: relative;
+  left: -9%;
 }
-.sign-in-container{
-    width: 50%;
-    padding: 20px 75px;
+.sign-in-container {
+  width: 50%;
+  padding: 20px 75px;
 }
-.logo-mini{
-    width: 40px;
-    margin-bottom: 25px;
+.logo-mini {
+  width: 40px;
+  margin-bottom: 25px;
 }
-.new-sign-up-btn{
-    border: none;
-    background-color: #f4f5f9;
-    text-decoration: underline;
+.new-sign-up-btn {
+  border: none;
+  background-color: #f4f5f9;
+  text-decoration: underline;
 }
-.sign-in-header{
-    display: flex;
-    justify-content: space-between;
+.sign-in-header {
+  display: flex;
+  justify-content: space-between;
 }
-.sign-in-header>h4{
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: .9px;
+.sign-in-header > h4 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
 }
-.btn-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 0px;
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
 }
-.facebook-btn{
-border: none;
-background-color: #3664a2;
-color: #fff;
-font-weight: 700;
-letter-spacing: .5px;
-padding: 10px 24px;
-border-radius: 30px;
+.facebook-btn {
+  border: none;
+  background-color: #3664a2;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 10px 24px;
+  border-radius: 30px;
 }
-.facebook-btn>i{
-    font-size: 20px;
-    margin-right: 9px;
+.facebook-btn > i {
+  font-size: 20px;
+  margin-right: 9px;
 }
-.google-btn{
-border: none;
-border: none;
-background-color: #ea4436;
-color: #fff;
-font-weight: 700;
-letter-spacing: .5px;
-padding: 10px 24px;
-border-radius: 30px;
+.google-btn {
+  border: none;
+  border: none;
+  background-color: #ea4436;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 10px 24px;
+  border-radius: 30px;
 }
-.google-btn>i{
-    font-size: 20px;
-    margin-right: 9px;
+.google-btn > i {
+  font-size: 20px;
+  margin-right: 9px;
 }
-.input-email{
-    width: 100%;
-    outline: none;
-    border: none;
-    border-radius: 30px;
-    padding: 8px 23px;
-    color: #272635;
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 20px;
+.input-email {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 23px;
+  color: #272635;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
-.input-password{
-    width: 100%;
-    outline: none;
-    border: none;
-    border-radius: 30px;
-    padding: 8px 23px;
-    color: #272635;
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 20px;
+.input-password {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 23px;
+  color: #272635;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
-#sign-in{
-    width: 100%;
-    border: none;
-    background-color: #3ad08f;
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 1.3px;
-    padding: 6px;
-    border-radius: 30px;
-    margin-top: 25px;
+#sign-in {
+  width: 100%;
+  border: none;
+  background-color: #3ad08f;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1.3px;
+  padding: 6px;
+  border-radius: 30px;
+  margin-top: 25px;
 }

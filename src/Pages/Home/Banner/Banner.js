@@ -13,11 +13,13 @@ const Banner = () => {
           <div>
             <input type="text" placeholder="Marka, model, ürün ara" />
             <button id="ara">Ara</button>
-            <button id="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button id="btn-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
           </div>
         </div>
         <div className="col-lg-6 col-sm-12 order-sm-0 banner-img">
-          <img src={bannerImg} className='img-fluid' alt="" />
+          <img src={bannerImg} className="img-fluid" alt="" />
         </div>
       </div>
     </div>

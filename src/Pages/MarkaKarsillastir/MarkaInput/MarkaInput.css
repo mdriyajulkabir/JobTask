@@ -1,54 +1,54 @@
-.marka-input-body{
-    padding: 20px 50px;
+.marka-input-body {
+  padding: 20px 50px;
 }
-.marka-input-container{
-    background-color: #272635;
-    border-radius: 40px;
-    padding: 50px 65px;
+.marka-input-container {
+  background-color: #272635;
+  border-radius: 40px;
+  padding: 50px 65px;
 }
-.marka-input-container>h1{
-    color: #fff;
-    font-weight: 700;
-    letter-spacing: 0.7px;
-    margin-bottom: 45px;
+.marka-input-container > h1 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  margin-bottom: 45px;
 }
-.marka-input{
-    color: #fff;
-    background-color: #3a384a;
-    height: 53px;
-    border: 1px solid #3a384a;
-    border-radius: 40px;
-    outline: none;
-    padding: 13px 0px;
-    padding-left: 30px;
-    padding-right: 55px;
-    margin-right: 45px;
-    font-weight: bold;
+.marka-input {
+  color: #fff;
+  background-color: #3a384a;
+  height: 53px;
+  border: 1px solid #3a384a;
+  border-radius: 40px;
+  outline: none;
+  padding: 13px 0px;
+  padding-left: 30px;
+  padding-right: 55px;
+  margin-right: 45px;
+  font-weight: bold;
 }
-.marka-input-2{
-    color: #fff;
-    background-color: #3a384a;
-    height: 53px;
-    border: 1px solid #3a384a;
-    border-radius: 40px;
-    outline: none;
-    padding: 13px 0px;
-    padding-left: 30px;
-    padding-right: 55px;
-    margin-left: 55px;
-    font-weight: bold;
+.marka-input-2 {
+  color: #fff;
+  background-color: #3a384a;
+  height: 53px;
+  border: 1px solid #3a384a;
+  border-radius: 40px;
+  outline: none;
+  padding: 13px 0px;
+  padding-left: 30px;
+  padding-right: 55px;
+  margin-left: 55px;
+  font-weight: bold;
 }
-.marka-input-container>div>span{
-    font-size: 22px;
+.marka-input-container > div > span {
+  font-size: 22px;
 }
-#marka-btn{
-    color: #fff;
-    background-color: #3ad08f;
-    border-color: #3ad08f;
-    padding: 13px 53px;
-    border-radius: 50px;
-    cursor: pointer;
-    border: 1px solid #afb0b6;
-    margin-left: 45px;
-    font-weight: bold;
+#marka-btn {
+  color: #fff;
+  background-color: #3ad08f;
+  border-color: #3ad08f;
+  padding: 13px 53px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 1px solid #afb0b6;
+  margin-left: 45px;
+  font-weight: bold;
 }

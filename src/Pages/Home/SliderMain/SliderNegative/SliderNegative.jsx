@@ -1,10 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
 import img1 from "../../../../images/AutoPlaySlider/3eb34c14ca8a8cf8777f861afd570cc0_50x50.jpg";
-import img2 from '../../../../images/AutoPlaySlider/6193c269bedcc5e644e28b1fbd53457a_50x50.jpg';
-import img3 from '../../../../images/AutoPlaySlider/91ca8ffd436dffdc7ef838c5ef9eec24_50x50.jpg';
-import img4 from '../../../../images/AutoPlaySlider/af648d37edb8c8c8cfa94bac80f758d8_50x50.jpg';
-import img5 from '../../../../images/AutoPlaySlider/k_50x50.svg';
+import img2 from "../../../../images/AutoPlaySlider/6193c269bedcc5e644e28b1fbd53457a_50x50.jpg";
+import img3 from "../../../../images/AutoPlaySlider/91ca8ffd436dffdc7ef838c5ef9eec24_50x50.jpg";
+import img4 from "../../../../images/AutoPlaySlider/af648d37edb8c8c8cfa94bac80f758d8_50x50.jpg";
+import img5 from "../../../../images/AutoPlaySlider/k_50x50.svg";
 import reply from "../../../../images/AutoPlaySlider/reply.svg";
 import "./SliderNegative.css";
 const SliderNegative = () => {
@@ -54,9 +54,7 @@ const SliderNegative = () => {
                 <p>19.856görüntüleme</p>
               </div>
             </div>
-            <h5>Global Satış İcra Mesajı Alıyorum
-
-</h5>
+            <h5>Global Satış İcra Mesajı Alıyorum</h5>
           </div>
         </div>
         <div>
@@ -74,9 +72,7 @@ const SliderNegative = () => {
                 <p>19.856görüntüleme</p>
               </div>
             </div>
-            <h5>Global Satış İcra Takibi Mesajı Gönderdi
-
-</h5>
+            <h5>Global Satış İcra Takibi Mesajı Gönderdi</h5>
           </div>
         </div>
         <div>
@@ -112,9 +108,7 @@ const SliderNegative = () => {
                 <p>19.856görüntüleme</p>
               </div>
             </div>
-            <h5>Amazon Uygulamasında Yorum Yaparak Para Kazanma
-
-</h5>
+            <h5>Amazon Uygulamasında Yorum Yaparak Para Kazanma</h5>
           </div>
         </div>
         <div>

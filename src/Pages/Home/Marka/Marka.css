@@ -1,106 +1,106 @@
-.marka-body{
-    background-color: #f4f5f9;
-    position: relative;
+.marka-body {
+  background-color: #f4f5f9;
+  position: relative;
 }
-.marka-container{
-    background-color: #272635;
-    position: relative;
-    padding-top: 55px;
-    padding-left: 50px;
-    padding-bottom: 65px;
-    border-radius: 50px;
+.marka-container {
+  background-color: #272635;
+  position: relative;
+  padding-top: 55px;
+  padding-left: 50px;
+  padding-bottom: 65px;
+  border-radius: 50px;
 }
-.karma-p{
-    color: #7c7b85;
-    margin-top: 30px;
-    margin-bottom: 30px;
+.karma-p {
+  color: #7c7b85;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-.karma-input{
-    color: #fff;
-    background-color: #3a384a;
-    height: 53px;
-    border: 1px solid #3a384a;
-    border-radius: 40px;
-    outline: none;
-    padding: 0 35px;
-    margin-right: 15px;
-    font-weight: bold;
+.karma-input {
+  color: #fff;
+  background-color: #3a384a;
+  height: 53px;
+  border: 1px solid #3a384a;
+  border-radius: 40px;
+  outline: none;
+  padding: 0 35px;
+  margin-right: 15px;
+  font-weight: bold;
 }
-.karma-input-2{
-    color: #fff;
-    background-color: #3a384a;
-    height: 53px;
-    border: 1px solid #3a384a;
-    border-radius: 40px;
-    outline: none;
-    padding: 0 35px;
-    margin-left: 15px;
-    font-weight: bold;
+.karma-input-2 {
+  color: #fff;
+  background-color: #3a384a;
+  height: 53px;
+  border: 1px solid #3a384a;
+  border-radius: 40px;
+  outline: none;
+  padding: 0 35px;
+  margin-left: 15px;
+  font-weight: bold;
 }
-#karma-btn{
-    color: #fff;
-    background-color: #3ad08f;
-    border-color: #3ad08f;
-    padding: 15px 43px;
-    border-radius: 50px;
-    cursor: pointer;
-    border: 1px solid #afb0b6;
-    margin-left: 22px;
-    font-weight: bold;
-}
-
-.half-circle{
-    height: 71px;
-    width: 142px;
-    background-color: #695de9;
-    border-radius: 50%/0 0 100% 100%;
-    transform: rotate(50deg);
-    position: absolute;
-    right: 25%;
-    bottom: 57.5%;
-  }
-  .full-circle{
-    height: 108.81px;
-    width: 108.81px;
-    border-radius: 61.81px;
-    background-color: #3ad08f;
-    position: absolute;
-    right: 6%;
-    bottom: 32.5%;
-  }
-  .line{
-    height: 16px;
-    width: 342px;
-    background-color: #fff;
-    transform: rotate(20.5deg);
-    display: block;
-    position: absolute;
-    right: 7%;
-    bottom: 39.5%;
-  }
-.arrow{
-    width: 0;
-    height: 0;
-    border: 103px solid  transparent ;
-    border-top: 0;
-    border-bottom: 160px solid #695de9;
-    position: absolute;
-    right: 12%;
-    bottom: 0%;
-}
-.arrow2{
-    width: 0px;
-    height: 0px;
-    border: 97px solid transparent;
-    border-top: 0;
-    border-bottom: 145px solid #272635;
-    position: absolute;
-    right: 12.5%;
-    bottom: 0%;
+#karma-btn {
+  color: #fff;
+  background-color: #3ad08f;
+  border-color: #3ad08f;
+  padding: 15px 43px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 1px solid #afb0b6;
+  margin-left: 22px;
+  font-weight: bold;
 }
 
-#karma-btn:hover{
-    background-color: #fff;
-    color: #3a384a;
-    font-weight: bold;
+.half-circle {
+  height: 71px;
+  width: 142px;
+  background-color: #695de9;
+  border-radius: 50%/0 0 100% 100%;
+  transform: rotate(50deg);
+  position: absolute;
+  right: 25%;
+  bottom: 57.5%;
+}
+.full-circle {
+  height: 108.81px;
+  width: 108.81px;
+  border-radius: 61.81px;
+  background-color: #3ad08f;
+  position: absolute;
+  right: 6%;
+  bottom: 32.5%;
+}
+.line {
+  height: 16px;
+  width: 342px;
+  background-color: #fff;
+  transform: rotate(20.5deg);
+  display: block;
+  position: absolute;
+  right: 7%;
+  bottom: 39.5%;
+}
+.arrow {
+  width: 0;
+  height: 0;
+  border: 103px solid transparent;
+  border-top: 0;
+  border-bottom: 160px solid #695de9;
+  position: absolute;
+  right: 12%;
+  bottom: 0%;
+}
+.arrow2 {
+  width: 0px;
+  height: 0px;
+  border: 97px solid transparent;
+  border-top: 0;
+  border-bottom: 145px solid #272635;
+  position: absolute;
+  right: 12.5%;
+  bottom: 0%;
+}
+
+#karma-btn:hover {
+  background-color: #fff;
+  color: #3a384a;
+  font-weight: bold;
 }

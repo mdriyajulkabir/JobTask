@@ -19,26 +19,18 @@ const Marka = () => {
           performanslarını karşılaştırın, kararınızı kolayca verin
         </p>
         <div>
-          <input
-            type="text"
-            placeholder="1. Marka"
-            className="karma-input"
-          />
-          <span style={{color:"#686677"}}>ile</span>
-          <input
-            type="text"
-            placeholder="1. Marka"
-            className="karma-input-2"
-          />
-          
+          <input type="text" placeholder="1. Marka" className="karma-input" />
+          <span style={{ color: "#686677" }}>ile</span>
+          <input type="text" placeholder="1. Marka" className="karma-input-2" />
+
           <input type="button" id="karma-btn" value="Karşılaştır" />
         </div>
         <div>
-            <div className="half-circle"/>
-            <div className="full-circle"/>
-            <div className="line"/>
-            <div className="arrow"/>
-            <div className="arrow2"/>
+          <div className="half-circle" />
+          <div className="full-circle" />
+          <div className="line" />
+          <div className="arrow" />
+          <div className="arrow2" />
         </div>
       </div>
     </div>

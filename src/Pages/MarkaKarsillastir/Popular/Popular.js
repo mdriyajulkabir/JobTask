@@ -40,7 +40,9 @@ const Popular = () => {
                     </div>
                   </div>
                 ))}
-                <button type="submit" id="popular-btn">Karşılaştır</button>
+                <button type="submit" id="popular-btn">
+                  Karşılaştır
+                </button>
               </div>
             </div>
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
@@ -69,7 +71,9 @@ const Popular = () => {
                     </div>
                   </div>
                 ))}
-                <button type="submit" id="popular-btn">Karşılaştır</button>
+                <button type="submit" id="popular-btn">
+                  Karşılaştır
+                </button>
               </div>
             </div>
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
@@ -98,7 +102,9 @@ const Popular = () => {
                     </div>
                   </div>
                 ))}
-                <button type="submit" id="popular-btn">Karşılaştır</button>
+                <button type="submit" id="popular-btn">
+                  Karşılaştır
+                </button>
               </div>
             </div>
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
@@ -127,7 +133,9 @@ const Popular = () => {
                     </div>
                   </div>
                 ))}
-                <button type="submit" id="popular-btn">Karşılaştır</button>
+                <button type="submit" id="popular-btn">
+                  Karşılaştır
+                </button>
               </div>
             </div>
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
@@ -156,7 +164,9 @@ const Popular = () => {
                     </div>
                   </div>
                 ))}
-                <button type="submit" id="popular-btn">Karşılaştır</button>
+                <button type="submit" id="popular-btn">
+                  Karşılaştır
+                </button>
               </div>
             </div>
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
@@ -185,7 +195,9 @@ const Popular = () => {
                     </div>
                   </div>
                 ))}
-                <button type="submit" id="popular-btn">Karşılaştır</button>
+                <button type="submit" id="popular-btn">
+                  Karşılaştır
+                </button>
               </div>
             </div>
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
@@ -214,7 +226,9 @@ const Popular = () => {
                     </div>
                   </div>
                 ))}
-                <button type="submit" id="popular-btn">Karşılaştır</button>
+                <button type="submit" id="popular-btn">
+                  Karşılaştır
+                </button>
               </div>
             </div>
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
@@ -243,10 +257,11 @@ const Popular = () => {
                     </div>
                   </div>
                 ))}
-                <button type="submit" id="popular-btn">Karşılaştır</button>
+                <button type="submit" id="popular-btn">
+                  Karşılaştır
+                </button>
               </div>
             </div>
-            
           </div>
         </div>
       </div>

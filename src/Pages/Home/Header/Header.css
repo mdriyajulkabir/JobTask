@@ -1,25 +1,25 @@
-.header-img{
-    width: 60%;
-    margin: auto;
+.header-img {
+  width: 60%;
+  margin: auto;
 }
-.unactive{
-    text-decoration: none;
-    color: #afb0b6;
-    font-size: 18px;
-    font-weight: 600;
-    padding-right: 20px;
+.unactive {
+  text-decoration: none;
+  color: #afb0b6;
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 20px;
 }
-.unactive:hover{
-    color: #3a384a;
-    text-decoration: none;
+.unactive:hover {
+  color: #3a384a;
+  text-decoration: none;
 }
-.active{
-    color: #3a384a;
-    text-decoration: none;
-    padding-right: 20px;
-    font-size: 18px;
-    font-weight: 600; 
+.active {
+  color: #3a384a;
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: 600;
 }
-.active:hover{
-    color: #3a384a;
+.active:hover {
+  color: #3a384a;
 }
