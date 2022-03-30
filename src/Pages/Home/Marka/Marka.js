@@ -6,7 +6,7 @@ const Marka = () => {
       <div className="w-100 marka-container">
         <h3 className="text-white">Marka Karşılaştırması</h3>
         <br />
-        <h4 className="fw-light">
+        <h4 className="fw-light marka-title">
           <span className="text-white">
             Her gün yüzbinlerce kişi alışverişten önce Şikayetvar’a geliyor.
             Hangi <br /> markayı seçeceğine
@@ -20,7 +20,7 @@ const Marka = () => {
         </p>
         <div>
           <input type="text" placeholder="1. Marka" className="karma-input" />
-          <span style={{ color: "#686677" }}>ile</span>
+          <span style={{ color: "#686677" }} className='karma-span'>ile</span>
           <input type="text" placeholder="1. Marka" className="karma-input-2" />
 
           <input type="button" id="karma-btn" value="Karşılaştır" />

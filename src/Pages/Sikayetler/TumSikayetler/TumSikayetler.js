@@ -20,9 +20,9 @@ const TumSikayetler = () => {
           <hr className="ms-5" />
           <div>
             {posts.map((post) => (
-              <div className="post-container p-5">
+              <div className="post-container">
                 <div className="d-flex">
-                  <img src={post.img} className="post-img me-3" alt="" />
+                  <img src={post.img} className="post-img" alt="" />
                   <div>
                     <div className="d-flex">
                       <h5 className="me-3 post-owner">{post.name}</h5>
@@ -41,7 +41,7 @@ const TumSikayetler = () => {
                 </a>
                 <br /> <br />
                 <hr />
-                <div className="d-flex justify-content-between w-50 post-like-comment">
+                <div className="d-flex justify-content-between post-like-comment">
                   <h5>
                     <i class="fa-regular fa-thumbs-up"></i>
                     Destekle
@@ -59,6 +59,8 @@ const TumSikayetler = () => {
             ))}
           </div>
         </div>
+
+        {/* filter section */}
         <div className="col-lg-4 col-sm-12 p-3">
           <div className="filter-container">
             <div className="position-relative">

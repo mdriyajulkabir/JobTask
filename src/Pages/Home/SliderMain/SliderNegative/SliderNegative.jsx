@@ -17,6 +17,15 @@ const SliderNegative = () => {
     speed: 10000,
     autoplaySpeed: 1,
     cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: -1
+        }
+      }
+    ]
   };
   return (
     <div className="slider-negative-container">

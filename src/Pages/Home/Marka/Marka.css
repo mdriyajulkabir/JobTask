@@ -16,7 +16,7 @@
   margin-bottom: 30px;
 }
 .karma-input {
-  color: #fff;
+  color: #ffffff;
   background-color: #3a384a;
   height: 53px;
   border: 1px solid #3a384a;
@@ -27,7 +27,7 @@
   font-weight: bold;
 }
 .karma-input-2 {
-  color: #fff;
+  color: #ffffff;
   background-color: #3a384a;
   height: 53px;
   border: 1px solid #3a384a;
@@ -103,4 +103,79 @@
   background-color: #fff;
   color: #3a384a;
   font-weight: bold;
+}
+@media screen and (max-width: 415px) {
+  .marka-container {
+    padding-top: 335px;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  .marka-title{
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .karma-input {
+    height: 53px;
+    border-radius: 40px;
+    padding: 0 30px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .karma-input-2 {
+    height: 53px;
+    border-radius: 40px;
+    padding: 0 30px;
+    margin-left: 0px;
+    margin-top: 10px;  }
+  .karma-span{
+    margin-left: 130px;
+    font-size: 20px;
+  }
+  #karma-btn {
+    width: 90%;
+    padding: 15px 43px;
+    margin-top: 25px;
+    margin-left: 5px;
+  }
+  .half-circle {
+    height: 56px;
+    width: 112px;
+    transform: rotate(50deg);
+    left: 9%;
+    top: 8.5%;
+  }
+  .full-circle {
+    height: 93.81px;
+    width:  93.81px;
+    right: 8%;
+    top: 11.5%;
+  }
+  .line {
+    height: 16px;
+    width: 232px;
+    transform: rotate(20.5deg);
+    display: block;
+    right: 13%;
+    top: 18.5%;
+  }
+  .arrow {
+    width: 0;
+    height: 0;
+    border: 82px solid transparent;
+    border-top: 0;
+    border-bottom: 130px solid #695de9;
+    position: absolute;
+    left: 24.3%;
+    top: 20%;
+  }
+  .arrow2 {
+    width: 0px;
+    height: 0px;
+    border: 80px solid transparent;
+    border-top: 0;
+    border-bottom: 120px solid #272635;
+    position: absolute;
+    left: 24.5%;
+    top: 21.3%;
+  }
 }

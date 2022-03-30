@@ -5,7 +5,7 @@ const Sikayetvar = () => {
   return (
     <div className="sikayetvar-container">
       <div className="row w-100">
-        <div className="col-lg-4 col-sm-12 video-description-container">
+        <div className="col-lg-4 col-sm-12 col-12 video-description-container">
           <h1>
             <span className="span-1">Şikayetvar</span> <br />
             <span className="span-2">Nasıl Çalışır?</span>
@@ -16,7 +16,7 @@ const Sikayetvar = () => {
             yılda 450 binin üzerinde şikâyet çözüme kavuşuyor!
           </p>
         </div>
-        <div className="col-lg-8 col-sm-12 video-container">
+        <div className="col-lg-8 col-sm-12 col-12 video-container">
           <div className="green-circle"></div>
           <div className="gray-circle"></div>
           <div className="blue-half-circle"></div>

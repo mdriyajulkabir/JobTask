@@ -77,3 +77,11 @@
 .copyright span {
   color: #7c7b85;
 }
+@media screen and (max-width: 415px) {
+  .link-primary{
+    display: block;
+  }
+  .link-primary>li{
+    margin-bottom: 14px;
+  }
+}

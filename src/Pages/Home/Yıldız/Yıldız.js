@@ -11,14 +11,15 @@ const Yıldız = () => {
   return (
     <div className="yiliz-container">
       <h1>Yıldız Sıralaması</h1>
-      <div className="d-flex align-items-center justify-content-center">
-        <select class="form-select w-25" id="inputGroupSelect02">
+      <div className="select-input-container">
+        <select class="form-select" id="inputGroupSelect02">
           <option selected>Choose</option>
           <option value="1">One</option>
           <option value="2">Two</option>
           <option value="3">Three</option>
         </select>
 
+        <div className="check-container">
         <div class="form-check check-div">
           <input
             class="form-check-input"
@@ -42,6 +43,7 @@ const Yıldız = () => {
           <label class="form-check-label" for="flexRadioDefault2">
             Tüm Zamanlar
           </label>
+        </div>
         </div>
       </div>
       <p>

@@ -23,3 +23,8 @@
 .active:hover {
   color: #3a384a;
 }
+@media screen and (max-width: 415px) {
+  .header-img {
+    width: 160px;
+  }
+}

@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} 
 .img-container {
   height: 84px;
   background-color: white;
@@ -42,7 +42,41 @@
   align-items: center;
   padding: 0px 20px;
 }
+.item-owner-details{
+  padding-left: 10px;
+  padding-top: 15px;
+}
 .item-details > div > h5 {
   line-height: 5px;
   letter-spacing: 1px;
+}
+@media screen and (max-width: 415px) {
+  .item-container{
+    width: 100%;
+  }
+  .item-details{
+    display: block;
+  }
+  .item-owner-details{
+    padding-left: 10px;
+    padding-top: 15px;
+    line-height: 0px;
+  }
+  .item-details>div>h5{
+    margin-bottom: 16px;
+  }
+  .item-details>div>h6{
+    margin-top: 5px;
+  }
+  .position-bg {
+    height: 130%;
+    width: 85%;
+    border-radius: 20px;
+    position: absolute;
+    top: -16%;
+    left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
 }

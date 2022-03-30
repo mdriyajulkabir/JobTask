@@ -6,16 +6,16 @@ const Item = (props) => {
   return (
     <div className="item-container">
       <div className="row w-100">
-        <div className="col-lg-1 col-sm-1 position-div">
+        <div className="col-lg-1 col-sm-1 col-1 position-div">
           <div className="position-bg">
             <img src={rankUp} alt="" />
           </div>
         </div>
-        <div className="col-lg-2 col-sm-3 img-container">
+        <div className="col-lg-2 col-sm-3 col-3 img-container">
           <img src={img} className="item-img" alt="" />
         </div>
-        <div className="col-lg-9 col-sm-8 item-details">
-          <div className="ps-2 pt-3">
+        <div className="col-lg-9 col-sm-8 col-8 item-details">
+          <div className="item-owner-details">
             <h5>
               {id}. {name}
             </h5>

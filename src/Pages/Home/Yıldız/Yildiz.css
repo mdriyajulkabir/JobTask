@@ -18,7 +18,14 @@
   margin-top: 50px;
   margin-bottom: 70px;
 }
+.select-input-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .form-select {
+  width: 25%;
   border: none;
   padding: 10px 0;
   padding-left: 25px;
@@ -34,6 +41,10 @@
 }
 .form-select > option {
   background-color: #fff;
+}
+.check-container{
+  display: flex;
+  align-items: center;
 }
 .check-div {
   color: #fff;
@@ -67,4 +78,18 @@
 .yiliz-container > button:hover {
   background-color: #fff;
   color: #272735;
+}
+@media screen and (max-width: 415px) {
+  .select-input-container{
+    display: block;
+  }
+  .form-select{
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 25px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    border-radius: 50px;
+  }
 }

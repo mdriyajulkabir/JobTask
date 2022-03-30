@@ -13,11 +13,13 @@
 }
 .post-container {
   margin-bottom: 10px;
+  padding: 48px;
 }
 .post-img {
   border-radius: 50%;
   height: 55px;
   width: 55px;
+  margin-right: 20px;
 }
 .post-owner {
   color: #3a3a3a;
@@ -55,6 +57,7 @@
 }
 .post-like-comment {
   color: #7c7b85;
+  width: 50%;
   /* cursor: pointer; */
 }
 .post-like-comment > h5 {
@@ -91,4 +94,28 @@
   right: 5%;
   bottom: 15%;
   color: #fff;
+}
+
+@media screen and (max-width: 415px) {
+  .post-container{
+    padding: 0px;
+    padding-left: 20px;
+  }
+  .post-img {
+    height: 45px;
+    width: 45px;
+    margin-right: 15px;
+  }
+  .post-owner{
+    font-size: 16px;
+  }
+  .post-time {
+    top: -5%;
+    letter-spacing: 0px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .post-like-comment{
+    width: 100%;
+  }
 }

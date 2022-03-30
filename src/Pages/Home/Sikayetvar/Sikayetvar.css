@@ -85,3 +85,18 @@
   margin-left: 105px;
   position: relative;
 }
+@media screen and (max-width: 415px) {
+  .green-circle,.gray-circle,.yellow-circle,.green-half-circle,.blue-half-circle{
+    display: none;
+  }
+  .video-img{
+    width: 106%;
+    margin-left: 0px;
+    height: 100%;
+  }
+  .sikayetvar-container{
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+  }
+}
