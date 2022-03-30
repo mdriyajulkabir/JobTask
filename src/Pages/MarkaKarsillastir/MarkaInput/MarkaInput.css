@@ -52,3 +52,37 @@
   margin-left: 45px;
   font-weight: bold;
 }
+@media screen and (max-width:415px) {
+  .marka-input-body{
+    padding: 15px 10px;
+  }
+  .marka-input-container{
+    padding: 25px 35px;
+  }
+  .marka-input-container>h1{
+    letter-spacing: 0px;
+  }
+  .marka-input {
+    padding: 13px 0px;
+    padding-left: 30px;
+    padding-right: 55px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  .marka-input-2 {
+    padding: 13px 0px;
+    padding-left: 30px;
+    padding-right: 55px;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .marka-input-container > div > span {
+    font-size: 24px;
+    padding-left: 120px;
+  }
+  #marka-btn {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+}

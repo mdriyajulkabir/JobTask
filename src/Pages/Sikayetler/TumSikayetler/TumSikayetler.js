@@ -12,7 +12,7 @@ const TumSikayetler = () => {
   return (
     <div className="">
       <div className="row w-100">
-        <div className="col-lg-8 col-sm-12">
+        <div className="col-lg-8 col-sm-12 order-lg-0 order-1">
           <div className="d-flex align-items-center mt-5 ms-5 tum-sikayetler-header">
             <h1>Tüm Şikayetler</h1>
             <h5>9.012.094 şikayet</h5>
@@ -61,7 +61,7 @@ const TumSikayetler = () => {
         </div>
 
         {/* filter section */}
-        <div className="col-lg-4 col-sm-12 p-3">
+        <div className="col-lg-4 col-sm-12 p-3 order-lg-1 order-0">
           <div className="filter-container">
             <div className="position-relative">
               <input type="text" className="filter-search" />

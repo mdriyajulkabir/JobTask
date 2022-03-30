@@ -105,6 +105,7 @@
     height: 45px;
     width: 45px;
     margin-right: 15px;
+    border: 0.5px solid #272635;
   }
   .post-owner{
     font-size: 16px;
@@ -117,5 +118,11 @@
   }
   .post-like-comment{
     width: 100%;
+  }
+  .post-like-comment > h5 {
+    font-size: 15px;
+  }
+  .post-like-comment > h5 > i {
+    margin-right: 5px;
   }
 }
