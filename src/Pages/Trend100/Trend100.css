@@ -48,4 +48,14 @@ body {
   .tt-text {
     display: block;
   }
+  .social_icon {
+    display: flex;
+    flex-direction: row;
+  }
+  .paylas{
+    display: none;
+  }
+  .t-t{
+    margin-bottom: 25px;
+  }
 }

@@ -15,7 +15,7 @@ const Trend100 = () => {
       <Header />
       <div className="container pt-5">
         <div className="row">
-          <div className="col-8">
+          <div className="col-lg-8 col-sm-12 col-12">
             <h1 className="t-t">
               Trend{" "}
               <span>
@@ -25,13 +25,10 @@ const Trend100 = () => {
                 />
               </span>
             </h1>
-            <p className="pt-3 t-text">
-              Trend 100, Türkiye’de en fazla merak edilen markaları listeler.
-            </p>
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 col-sm12 col-12">
             <div className="social_icon ">
-              <p className="paylaş">Paylaş</p>
+              <p className="paylas">Paylaş</p>
               <p className="tweeter">
                 <i className="fab fa-twitter-square i-icon"></i>
               </p>
@@ -49,6 +46,9 @@ const Trend100 = () => {
               </p>
             </div>
           </div>
+          <p className="pt-3 t-text">
+              Trend 100, Türkiye’de en fazla merak edilen markaları listeler.
+            </p>
         </div>
       </div>
       <div className="container pt-5 p-5">
