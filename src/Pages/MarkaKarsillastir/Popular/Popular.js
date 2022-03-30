@@ -12,20 +12,20 @@ const Popular = () => {
       <h3 className="popular-header">Popüler karşılaştırmalar</h3>
 
       <div className=" row w-100 popular-card-container">
-        <div className="col-lg-9">
+        <div className="col-lg-9 col-sm-12 col-12">
           <div className="row w-100 my-5">
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
               <div className="single-popular-card">
                 {popularItems.slice(0, 2).map((populars) => (
-                  <div className="row w-100 pb-4">
-                    <div className="col-lg-4 popular-item-img-div">
+                  <div className="row w-100 pb-4 popular-item-div">
+                    <div className="col-lg-4 col-4 popular-item-img-div">
                       <img
                         src={populars.img}
                         className="img-fluid popular-item-img"
                         alt=""
                       />
                     </div>
-                    <div className="col-lg-8 ps-4">
+                    <div className="col-lg-8 col-8 ps-4">
                       <h5>{populars.name}</h5>
                       <div className="d-flex ">
                         <div>
@@ -48,15 +48,15 @@ const Popular = () => {
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
               <div className="single-popular-card">
                 {popularItems.slice(2, 4).map((populars) => (
-                  <div className="row w-100 pb-4">
-                    <div className="col-lg-4 popular-item-img-div">
+                  <div className="row w-100 pb-4 popular-item-div">
+                    <div className="col-lg-4 col-4 popular-item-img-div">
                       <img
                         src={populars.img}
                         className="img-fluid popular-item-img"
                         alt=""
                       />
                     </div>
-                    <div className="col-lg-8 ps-4">
+                    <div className="col-lg-8 col-8 ps-4">
                       <h5>{populars.name}</h5>
                       <div className="d-flex ">
                         <div>
@@ -79,15 +79,15 @@ const Popular = () => {
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
               <div className="single-popular-card">
                 {popularItems.slice(3, 5).map((populars) => (
-                  <div className="row w-100 pb-4">
-                    <div className="col-lg-4 popular-item-img-div">
+                  <div className="row w-100 pb-4 popular-item-div">
+                    <div className="col-lg-4 col-4 popular-item-img-div">
                       <img
                         src={populars.img}
                         className="img-fluid popular-item-img"
                         alt=""
                       />
                     </div>
-                    <div className="col-lg-8 ps-4">
+                    <div className="col-lg-8 col-8 ps-4">
                       <h5>{populars.name}</h5>
                       <div className="d-flex ">
                         <div>
@@ -110,15 +110,15 @@ const Popular = () => {
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
               <div className="single-popular-card">
                 {popularItems.slice(4, 6).map((populars) => (
-                  <div className="row w-100 pb-4">
-                    <div className="col-lg-4 popular-item-img-div">
+                  <div className="row w-100 pb-4 popular-item-div">
+                    <div className="col-lg-4 col-4 popular-item-img-div">
                       <img
                         src={populars.img}
                         className="img-fluid popular-item-img"
                         alt=""
                       />
                     </div>
-                    <div className="col-lg-8 ps-4">
+                    <div className="col-lg-8 col-8 ps-4">
                       <h5>{populars.name}</h5>
                       <div className="d-flex ">
                         <div>
@@ -141,15 +141,15 @@ const Popular = () => {
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
               <div className="single-popular-card">
                 {popularItems.slice(5, 7).map((populars) => (
-                  <div className="row w-100 pb-4">
-                    <div className="col-lg-4 popular-item-img-div">
+                  <div className="row w-100 pb-4 popular-item-div">
+                    <div className="col-lg-4 col-4 popular-item-img-div">
                       <img
                         src={populars.img}
                         className="img-fluid popular-item-img"
                         alt=""
                       />
                     </div>
-                    <div className="col-lg-8 ps-4">
+                    <div className="col-lg-8 col-8 ps-4">
                       <h5>{populars.name}</h5>
                       <div className="d-flex ">
                         <div>
@@ -172,15 +172,15 @@ const Popular = () => {
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
               <div className="single-popular-card">
                 {popularItems.slice(6, 8).map((populars) => (
-                  <div className="row w-100 pb-4">
-                    <div className="col-lg-4 popular-item-img-div">
+                  <div className="row w-100 pb-4 popular-item-div">
+                    <div className="col-lg-4 col-4 popular-item-img-div">
                       <img
                         src={populars.img}
                         className="img-fluid popular-item-img"
                         alt=""
                       />
                     </div>
-                    <div className="col-lg-8 ps-4">
+                    <div className="col-lg-8 col-8 ps-4">
                       <h5>{populars.name}</h5>
                       <div className="d-flex ">
                         <div>
@@ -203,15 +203,15 @@ const Popular = () => {
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
               <div className="single-popular-card">
                 {popularItems.slice(7, 9).map((populars) => (
-                  <div className="row w-100 pb-4">
-                    <div className="col-lg-4 popular-item-img-div">
+                  <div className="row w-100 pb-4 popular-item-div">
+                    <div className="col-lg-4 col-4 popular-item-img-div">
                       <img
                         src={populars.img}
                         className="img-fluid popular-item-img"
                         alt=""
                       />
                     </div>
-                    <div className="col-lg-8 ps-4">
+                    <div className="col-lg-8 col-8 ps-4">
                       <h5>{populars.name}</h5>
                       <div className="d-flex ">
                         <div>
@@ -234,15 +234,15 @@ const Popular = () => {
             <div className="col-lg-6 col-sm-12 single-popular-card-div">
               <div className="single-popular-card">
                 {popularItems.slice(0, 2).map((populars) => (
-                  <div className="row w-100 pb-4">
-                    <div className="col-lg-4 popular-item-img-div">
+                  <div className="row w-100 pb-4 popular-item-div">
+                    <div className="col-lg-4 col-4 popular-item-img-div">
                       <img
                         src={populars.img}
                         className="img-fluid popular-item-img"
                         alt=""
                       />
                     </div>
-                    <div className="col-lg-8 ps-4">
+                    <div className="col-lg-8 col-8 ps-4">
                       <h5>{populars.name}</h5>
                       <div className="d-flex ">
                         <div>

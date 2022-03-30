@@ -52,14 +52,14 @@
   margin-left: 45px;
   font-weight: bold;
 }
-@media screen and (max-width:415px) {
-  .marka-input-body{
+@media screen and (max-width: 415px) {
+  .marka-input-body {
     padding: 15px 10px;
   }
-  .marka-input-container{
+  .marka-input-container {
     padding: 25px 35px;
   }
-  .marka-input-container>h1{
+  .marka-input-container > h1 {
     letter-spacing: 0px;
   }
   .marka-input {
