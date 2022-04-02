@@ -1,6 +1,7 @@
 .header-img {
   width: 60%;
   margin: auto;
+  padding-left: 60px;
 }
 .unactive {
   text-decoration: none;
@@ -26,5 +27,6 @@
 @media screen and (max-width: 415px) {
   .header-img {
     width: 160px;
+    padding-left: 0px;
   }
 }

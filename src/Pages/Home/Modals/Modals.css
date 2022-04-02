@@ -119,3 +119,9 @@
   border-radius: 30px;
   margin-top: 25px;
 }
+@media screen and (max-width: 500px) {
+  .modal-button{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+}
