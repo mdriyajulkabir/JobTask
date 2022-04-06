@@ -24,9 +24,13 @@
 .active:hover {
   color: #3a384a;
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 900px) {
   .header-img {
     width: 160px;
     padding-left: 0px;
+  }
+  .nav-right-link{
+    display: flex;
+    flex-direction: column;
   }
 }

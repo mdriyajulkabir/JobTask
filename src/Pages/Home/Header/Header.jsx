@@ -41,8 +41,15 @@ const Header = () => {
                   Trend 100
                 </NavLink>
       </Nav>
-      <div>
+      <div className="nav-right-link">
               <Modals />
+              <NavLink
+                  to="/sikayetyaz"
+                  className={(navinfo) =>
+                    navinfo.isActive ? "active" : "unactive"
+                  }>
+                  Sikayetyaz
+                </NavLink>
             </div>
     </Navbar.Collapse>
 </Navbar>
