@@ -7,7 +7,7 @@
   outline-style: none !important;
   outline-color: none !important;
 }
-.modal-button:focus{
+.modal-button:focus {
   outline: none !important;
   outline-style: none !important;
   outline-color: none !important;
@@ -130,14 +130,14 @@
   margin-top: 25px;
 }
 @media screen and (max-width: 986px) {
-  .modal-button{
+  .modal-button {
     margin: 0px !important;
     padding: 0px !important;
     width: 14% !important;
   }
 }
 @media screen and (max-width: 885px) {
-  .modal-button{
+  .modal-button {
     width: 125px !important;
   }
 }

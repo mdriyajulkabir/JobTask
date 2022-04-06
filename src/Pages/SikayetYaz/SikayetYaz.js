@@ -28,28 +28,28 @@ const SikayetYaz = () => {
                   <Nav.Item className=" ">
                     <Nav.Link eventKey="first" className=" nav-active">
                       <div className="tab-name">
-                      <span className="tab-number">1</span> Şikayet 
+                        <span className="tab-number">1</span> Şikayet
                       </div>
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="second" className="w-100 nav-active">
                       <div className="tab-name">
-                      <span className="tab-number">2</span> Başlık
+                        <span className="tab-number">2</span> Başlık
                       </div>
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="third" className="w-100 nav-active">
                       <div className="tab-name">
-                      <span className="tab-number">3</span> Marka
+                        <span className="tab-number">3</span> Marka
                       </div>
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="fourth" className="w-100 nav-active">
                       <div className="tab-name">
-                      <span className="tab-number">4</span> Belge
+                        <span className="tab-number">4</span> Belge
                       </div>
                     </Nav.Link>
                   </Nav.Item>
