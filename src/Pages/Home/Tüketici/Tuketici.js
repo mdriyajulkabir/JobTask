@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Tuketici.css";
 const Tuketici = () => {
   return (
@@ -11,7 +12,7 @@ const Tuketici = () => {
           Müşteri odaklı kültürün parçası olmak ve mutlu müşteriler yaratmak
           için:
         </h5>
-        <button>Birlikte çalışalım</button>
+        <NavLink to='/kurumsal-uyelik'><button>Birlikte çalışalım</button></NavLink>
       </div>
     </div>
   );

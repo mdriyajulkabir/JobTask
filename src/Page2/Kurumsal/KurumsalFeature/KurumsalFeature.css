@@ -1,0 +1,28 @@
+.feature-container{
+    background-color: #f4f5f9;
+    padding: 80px 40px;
+    margin-bottom: 50px;
+}
+.feature-div{
+    margin-bottom: 40px;
+}
+.feature-img{
+    margin-bottom: 30px;
+    height: 60px;
+}
+.feature-header{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.feature-des{
+    color: #85878e;
+}
+
+@media screen and (max-width: 574px) {
+    .feature-container{
+        padding: 60px 0px;
+    }
+    .feature-img{
+        width: 25%;
+    }
+}

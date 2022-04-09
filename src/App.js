@@ -10,6 +10,7 @@ import Sikayetler from "./Pages/Sikayetler/Sikayetler";
 import MarkaKarsilastir from "./Pages/MarkaKarsillastir/MarkaKarsilastir";
 import Trend100 from "./Pages/Trend100/Trend100";
 import SikayetYaz from "./Pages/SikayetYaz/SikayetYaz";
+import Kurumsal from "./Page2/Kurumsal/Kurumsal";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/karsilastir" element={<MarkaKarsilastir/>} />
         <Route path="/trend-100" element={<Trend100/>} />
         <Route path="/sikayetyaz" element={<SikayetYaz/>} />
+        <Route path="/kurumsal-uyelik" element={<Kurumsal/>} />
       </Routes>
       </BrowserRouter>
     </div>
