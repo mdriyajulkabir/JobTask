@@ -10,6 +10,7 @@ import Sikayetler from "./Pages/Sikayetler/Sikayetler";
 import MarkaKarsilastir from "./Pages/MarkaKarsillastir/MarkaKarsilastir";
 import Trend100 from "./Pages/Trend100/Trend100";
 import SikayetYaz from "./Pages/SikayetYaz/SikayetYaz";
+
 function App() {
   return (
     <div className="">
