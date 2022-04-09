@@ -1,0 +1,34 @@
+.kurumsal-marka-container {
+  margin-bottom: 90px;
+}
+.marka-sayfasi-img {
+  display: flex;
+  position: relative;
+  right: -0.64cm;
+  justify-content: end;
+  padding-left: 25px;
+}
+.kurumsal-marka-des-div {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.kurumsal-marka-header {
+  color: #afb0b6;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.kurumsal-marka-title {
+  font-weight: 400;
+  color: #3a384a;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  font-size: 46px;
+}
+.kurumsal-marka-p {
+  color: #7c7b85;
+  font-size: 19px;
+  letter-spacing: 0.8px;
+  width: 77%;
+  font-weight: 500;
+  line-height: 32px;
+}
