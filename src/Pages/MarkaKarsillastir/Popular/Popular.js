@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
 import "./Popular.css";
 const Popular = () => {
   const [popularItems, setPopularItem] = useState([]);
@@ -38,11 +37,6 @@ const Popular = () => {
                         </div>
                         <p className="ps-3 popular-item-p">2.3</p>
                       </div>
-                      <NavLink
-                    to={`/uye/${populars.id}`}
-                    className="btn btn-primary px-3 py-2 rounded-pill w-75">
-                    Details
-                  </NavLink>
                     </div>
                   </div>
                 ))}
