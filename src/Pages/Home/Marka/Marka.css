@@ -179,3 +179,35 @@
     top: 21.3%;
   }
 }
+
+@media screen and (min-width: 416px) and (max-width: 1200px) {
+  .full-circle, .half-circle, .line, .arrow, .arrow2{
+    display: none;
+  }
+  .karma-input {
+    height: 53px;
+    border-radius: 40px;
+    padding: 0 30px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .karma-input-2 {
+    height: 53px;
+    border-radius: 40px;
+    padding: 0 30px;
+    margin-left: 0px;
+    margin-top: 10px;  }
+  .karma-span{
+    margin-left: 130px;
+    font-size: 20px;
+  }
+  #karma-btn {
+    width: 90%;
+    padding: 15px 43px;
+    margin-top: 25px;
+    margin-left: 5px;
+  }
+  .karma-span{
+    padding-right: 120px;
+  }
+}
