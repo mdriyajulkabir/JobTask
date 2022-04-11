@@ -1,0 +1,23 @@
+.musterilerinizle-description-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+.musterilerinizle-header{
+    color: #3a384a;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    line-height: 56px;
+}
+.musterilerinizel-p{
+    color: #7c7b85;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 38px;
+}
+.musterilerinizel-img{
+    position: relative;
+    right: -0.64cm;
+}
