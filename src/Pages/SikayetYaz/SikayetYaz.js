@@ -9,7 +9,7 @@ import Modals from "../Home/Modals/Modals";
 const SikayetYaz = () => {
   return (
     <div className="sikayetyaz-container">
-      <Tab.Container id="left-tabs-example" defaultActiveKey="second">
+      <Tab.Container id="left-tabs-example" defaultActiveKey="first">
         <div className="row sikayetyaz-div">
           <div className="col-12 col-lg-4 sikayetyaz-tab-container">
             <NavLink

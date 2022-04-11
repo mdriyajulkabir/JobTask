@@ -1,0 +1,44 @@
+.degisimisiz-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.degisimisiz-header{
+    color: #3a384a;
+    font-weight: 400;
+    font-size: 44px;
+    /* padding-left: 15px; */
+    padding-bottom: 30px;
+}
+.degisimisiz-p{
+    color: #7c7b85;
+    font-weight: 500;
+    line-height: 35px;
+    font-size: 18px;
+    padding-bottom: 18px;
+}
+.degisimisiz-btn{
+    color: #fff;
+    border: none;
+    background-color: #3AD08F;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 200px;
+}
+@media screen and (min-width: 992px) {
+    
+}
+@media screen and (max-width: 991px) {
+    .degisimisiz-header{
+        padding-left: 20px;
+    }
+    .degisimisiz-p{
+        padding-left: 20px;
+    }
+    .degisimisiz-btn{
+        width: 90%;
+        margin: auto;
+    }
+}

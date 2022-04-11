@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
+import DegisimiSiz from "./DegisimiSiz/DegisimiSiz";
 // import KurumsalBanner from './KurumsalBanner/KurumsalBanner';
 import KurumsalFeature from "./KurumsalFeature/KurumsalFeature";
 import KurumsalOnline from "./KurumsalOnline/KurumsalOnline";
@@ -15,6 +16,7 @@ const Kurumsal = () => {
       <MarkaSayfasi />
       <KurumsalOnline />
       <Musterilerinizle/>
+      <DegisimiSiz/>
     </div>
   );
 };
