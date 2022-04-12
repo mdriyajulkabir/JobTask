@@ -8,6 +8,7 @@ import KurumsalOnline from "./KurumsalOnline/KurumsalOnline";
 import MarkaSayfasi from "./MarkaSayfasi/MarkaSayfasi";
 import Musterilerinizle from "./Musterilerinizle/Musterilerinizle";
 import RakipAnalizi from "./RakipAnalizi/RakipAnalizi";
+import SikayetvarKurumsal from "./SikayetvarKurumsal/SikayetvarKurumsal";
 
 const Kurumsal = () => {
   return (
@@ -21,6 +22,7 @@ const Kurumsal = () => {
       <DegisimiSiz />
       <RakipAnalizi />
       <Birlikte />
+      <SikayetvarKurumsal/>
     </div>
   );
 };

@@ -17,7 +17,7 @@ import img15 from "../../../images/Page2_img/BrandName/img15.png";
 import "./Birlikte.css";
 const Birlikte = () => {
   return (
-    <div className="birlikte-main-container py-5 my-5">
+    <div className="birlikte-main-container py-5 mt-5">
       <h1 className="birlikte-header">Birlikte çalıştığımız markalar</h1>
       <h1 className="birlikte-a">
         <a href="#a">3.000 üye marka</a>

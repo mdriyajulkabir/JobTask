@@ -1,0 +1,34 @@
+.sikayetvar-kurumsal-container {
+  background-color: #695de9;
+  padding: 130px 0px;
+}
+.sikayetvar-kurumsal-container > h1 {
+  line-height: 56px;
+  padding-bottom: 55px;
+  letter-spacing: 0.5px;
+}
+.sikayetvar-kurumsal-container > h5 {
+  letter-spacing: 0.7px;
+  padding-bottom: 40px;
+  font-weight: 400;
+}
+.sikayetvar-kurumsal-container > button {
+  border: none;
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  background-color: #3ad08f;
+  padding: 13px 48px;
+  border-radius: 30px;
+}
+@media screen and (max-width: 600px) {
+  .sikayetvar-kurumsal-container > h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 26px;
+  }
+  .sikayetvar-kurumsal-container > h5 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
