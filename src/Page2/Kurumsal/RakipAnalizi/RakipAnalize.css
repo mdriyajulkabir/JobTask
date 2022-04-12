@@ -1,56 +1,58 @@
-.rakip-analize-description-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 60px;
+.rakip-analize-description-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
 }
-.rakip-analizi-header{
-    color: #afb0b6;
-    font-weight: 400;
-    letter-spacing: 1px;
-    padding-bottom: 20px;
+.rakip-analizi-header {
+  color: #afb0b6;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
 }
-.rakip-analizi-title{
-    color: #3a384a;
-    font-weight: 500;
-    font-size: 44px;
-    padding-bottom: 35px;
+.rakip-analizi-title {
+  color: #3a384a;
+  font-weight: 500;
+  font-size: 44px;
+  padding-bottom: 35px;
 }
-.rakip-analizi-des{
-    color: #7c7b85;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0.5px;
-    padding-bottom: 20px;
+.rakip-analizi-des {
+  color: #7c7b85;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  padding-bottom: 20px;
 }
-.rakip-analizi-btn{
-    color: #fff;
-    background-color: #3ad08f;
-    cursor: pointer;
-    font-size: 21px;
-    font-weight: 700;
-    width: 190px;
-    padding: 8px 0px;
-    border-radius: 30px;
-    border: none;
+.rakip-analizi-btn {
+  color: #fff;
+  background-color: #3ad08f;
+  cursor: pointer;
+  font-size: 21px;
+  font-weight: 700;
+  width: 190px;
+  padding: 8px 0px;
+  border-radius: 30px;
+  border: none;
 }
-.rakip-img{
-    position: relative;
-    right: -0.64cm;
+.rakip-img {
+  position: relative;
+  right: -0.64cm;
 }
 @media screen and (max-width: 992px) {
-    .rakip-analize-description-div{
-        padding-left: 0px;
-    }
-    .rakip-analizi-header, .rakip-analizi-title, .rakip-analizi-des{
-        padding-left: 35px;
-    }
-    .rakip-analizi-btn{
-        width: 90%;
-        margin: auto;
-    }
-    .rakip-img{
+  .rakip-analize-description-div {
+    padding-left: 0px;
+  }
+  .rakip-analizi-header,
+  .rakip-analizi-title,
+  .rakip-analizi-des {
+    padding-left: 35px;
+  }
+  .rakip-analizi-btn {
+    width: 90%;
+    margin: auto;
+  }
+  .rakip-img {
     margin-bottom: 50px;
-    }
+  }
 }

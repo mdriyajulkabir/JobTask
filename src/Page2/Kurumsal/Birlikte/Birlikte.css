@@ -1,51 +1,51 @@
-.birlikte-main-container{
-    background-color: #272635;
+.birlikte-main-container {
+  background-color: #272635;
 }
-.birlikte-header{
-    color: #ffff;
-    font-size: 46px;
-    font-weight: 500;
-    padding-left: 50px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    letter-spacing: 0.99px;
+.birlikte-header {
+  color: #ffff;
+  font-size: 46px;
+  font-weight: 500;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  letter-spacing: 0.99px;
 }
-.birlikte-a{
-    margin-bottom: 90px;
+.birlikte-a {
+  margin-bottom: 90px;
 }
-.birlikte-a>a{
-    padding-left: 50px;
-    color: #b2c1f6;
-    letter-spacing: 0.8px;
-    cursor: text;
+.birlikte-a > a {
+  padding-left: 50px;
+  color: #b2c1f6;
+  letter-spacing: 0.8px;
+  cursor: text;
 }
-.birlikte-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+.birlikte-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
-.birlikte-img{
-    width: 135px;
-    text-align: center;
-    margin-bottom: 40px;
+.birlikte-img {
+  width: 135px;
+  text-align: center;
+  margin-bottom: 40px;
 }
-.birlikte-img-div{
-    display: flex;
-    align-items: center;
+.birlikte-img-div {
+  display: flex;
+  align-items: center;
 }
 @media screen and (min-width: 993px) {
-    .birlikte-container{
-        padding-left: 50px;
-    }
+  .birlikte-container {
+    padding-left: 50px;
+  }
 }
 @media screen and (max-width: 992px) {
-    .birlikte-container{
-        grid-template-columns: repeat(3, 1fr);
-        padding-left: 30px;
-    }
+  .birlikte-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 30px;
+  }
 }
 @media screen and (max-width: 662px) {
-    .birlikte-img{
-        width: 160%;
-    }
+  .birlikte-img {
+    width: 160%;
+  }
 }

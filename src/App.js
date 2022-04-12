@@ -1,10 +1,6 @@
 import "./App.css";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home/Home";
 import Sikayetler from "./Pages/Sikayetler/Sikayetler";
 import MarkaKarsilastir from "./Pages/MarkaKarsillastir/MarkaKarsilastir";
@@ -16,14 +12,14 @@ function App() {
   return (
     <div className="">
       <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/sikayetler" element={<Sikayetler/>} />
-        <Route path="/karsilastir" element={<MarkaKarsilastir/>} />
-        <Route path="/trend-100" element={<Trend100/>} />
-        <Route path="/sikayetyaz" element={<SikayetYaz/>} />
-        <Route path="/kurumsal-uyelik" element={<Kurumsal/>} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sikayetler" element={<Sikayetler />} />
+          <Route path="/karsilastir" element={<MarkaKarsilastir />} />
+          <Route path="/trend-100" element={<Trend100 />} />
+          <Route path="/sikayetyaz" element={<SikayetYaz />} />
+          <Route path="/kurumsal-uyelik" element={<Kurumsal />} />
+        </Routes>
       </BrowserRouter>
     </div>
   );

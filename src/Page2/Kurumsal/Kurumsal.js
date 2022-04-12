@@ -17,10 +17,10 @@ const Kurumsal = () => {
       <KurumsalFeature />
       <MarkaSayfasi />
       <KurumsalOnline />
-      <Musterilerinizle/>
-      <DegisimiSiz/>
-      <RakipAnalizi/>
-      <Birlikte/>
+      <Musterilerinizle />
+      <DegisimiSiz />
+      <RakipAnalizi />
+      <Birlikte />
     </div>
   );
 };
