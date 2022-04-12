@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../Pages/Home/Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 import Birlikte from "./Birlikte/Birlikte";
 import DegisimiSiz from "./DegisimiSiz/DegisimiSiz";
@@ -23,6 +24,7 @@ const Kurumsal = () => {
       <RakipAnalizi />
       <Birlikte />
       <SikayetvarKurumsal/>
+      <Footer/>
     </div>
   );
 };
