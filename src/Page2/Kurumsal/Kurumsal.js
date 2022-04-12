@@ -6,6 +6,7 @@ import KurumsalFeature from "./KurumsalFeature/KurumsalFeature";
 import KurumsalOnline from "./KurumsalOnline/KurumsalOnline";
 import MarkaSayfasi from "./MarkaSayfasi/MarkaSayfasi";
 import Musterilerinizle from "./Musterilerinizle/Musterilerinizle";
+import RakipAnalizi from "./RakipAnalizi/RakipAnalizi";
 
 const Kurumsal = () => {
   return (
@@ -17,6 +18,7 @@ const Kurumsal = () => {
       <KurumsalOnline />
       <Musterilerinizle/>
       <DegisimiSiz/>
+      <RakipAnalizi/>
     </div>
   );
 };

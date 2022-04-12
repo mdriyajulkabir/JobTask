@@ -1,7 +1,9 @@
 .slider-negative-container {
   width: 97%;
+  margin: auto;
   padding-top: 30px;
   padding-bottom: 30px;
+  overflow: hidden;
 }
 .slider-person-img {
   width: 15%;
