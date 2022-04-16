@@ -1,0 +1,44 @@
+
+.complaints-user-img-div{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 0px 120px 0 0;
+}
+.complaints-user-img-div>img{
+    padding-top: 40px;
+    width: 70%;
+}
+.color-div{
+    padding-right: 11px;
+}
+.complaints-blue{
+    height: 75px;
+    background-color: #695de9;
+}
+.complaints-green{
+    height: 85px;
+    background-color: #3ad08f;
+    border-radius: 50%/0 0 100% 100%;
+}
+.complaints-user-description{
+    padding-left: 60px;
+}
+.complaints-user-description>h4{
+    color: #afb0b6;
+    margin-bottom: 80px;
+}
+.complaints-user-description>h1{
+    color: #3a384a;
+    letter-spacing: 0.5px;
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}.complaints-user-description>p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7c7b85;
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+}

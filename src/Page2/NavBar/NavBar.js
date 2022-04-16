@@ -19,15 +19,15 @@ const NavBar = () => {
               className={(navinfo) =>
                 navinfo.isActive ? "active" : "unactive"
               }>
-              Kurumsal Üyelik
+              Corporate Membership
             </NavLink>
 
             <NavLink
-              to="/karsilastir"
+              to="/reklam-cozumleri"
               className={(navinfo) =>
                 navinfo.isActive ? "active" : "unactive"
               }>
-              Marka Karşılaştır
+              Advertising Solutions
             </NavLink>
             <NavLink
               to="/trend-100"

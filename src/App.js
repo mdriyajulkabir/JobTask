@@ -7,6 +7,7 @@ import MarkaKarsilastir from "./Pages/MarkaKarsillastir/MarkaKarsilastir";
 import Trend100 from "./Pages/Trend100/Trend100";
 import SikayetYaz from "./Pages/SikayetYaz/SikayetYaz";
 import Kurumsal from "./Page2/Kurumsal/Kurumsal";
+import AdvertisingSolutions from "./Page2/AdvertisingSolutions/AdvertisingSolutions";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/trend-100" element={<Trend100 />} />
           <Route path="/sikayetyaz" element={<SikayetYaz />} />
           <Route path="/kurumsal-uyelik" element={<Kurumsal />} />
+          <Route path="/reklam-cozumleri" element={<AdvertisingSolutions />} />
         </Routes>
       </BrowserRouter>
     </div>
