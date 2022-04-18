@@ -24,7 +24,7 @@ const AdvertisingModels = () => {
         </div>
       </div>
       <p>For detailed information, you can review our Cookie Policy page.</p>
-      <button>Get Detailed Information</button>
+      <div className="advertising-btn-div"><button className="advertising-btn">Get Detailed Information</button></div>
     </div>
   );
 };

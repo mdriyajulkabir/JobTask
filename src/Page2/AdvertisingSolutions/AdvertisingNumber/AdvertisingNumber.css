@@ -1,6 +1,10 @@
+.advertising-main{
+    overflow: hidden;
+}
 .advertisingNumber-container{
     background-color: #f4f5f9;
     padding: 100px 20px;
+    overflow: hidden;
 }
 .advertisingNumber-container h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
