@@ -1,0 +1,35 @@
+.partnership-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 130px;
+  padding-right: 50px;
+}
+.partnership-description > h1 {
+  font-weight: 400;
+  color: #3a384a;
+}
+.partnership-description > p {
+  font-size: 19px;
+  color: #7c7b85;
+  font-weight: 500;
+  margin-top: 30px;
+  letter-spacing: 0.5px;
+}
+.partnership-img {
+  display: flex;
+  position: relative;
+  right: -0.64cm;
+  justify-content: end;
+  border-radius: 190px 0 0 0;
+}
+@media screen and (max-width: 992px) {
+  .partnership-description {
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+  .partnership-description > h1 {
+    font-size: 34px;
+    margin-top: 30px;
+  }
+}

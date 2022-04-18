@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import AdvertisingNumber from './AdvertisingNumber/AdvertisingNumber';
+import BusinessPartnership from './BusinessPartnership/BusinessPartnership';
 import Complaints from './Complaints/Complaints';
 
 const AdvertisingSolutions = () => {
@@ -9,6 +10,7 @@ const AdvertisingSolutions = () => {
             <NavBar/>
             <AdvertisingNumber/>
             <Complaints/>
+            <BusinessPartnership/>
         </div>
     );
 };
