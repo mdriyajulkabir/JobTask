@@ -4,6 +4,7 @@ import AdvertisingModels from "./AdvertisingModels/AdvertisingModels";
 import AdvertisingNumber from "./AdvertisingNumber/AdvertisingNumber";
 import BusinessPartnership from "./BusinessPartnership/BusinessPartnership";
 import Complaints from "./Complaints/Complaints";
+import WorkWithUs from "./WorkWithUs/WorkWithUs";
 
 const AdvertisingSolutions = () => {
   return (
@@ -13,6 +14,7 @@ const AdvertisingSolutions = () => {
       <Complaints />
       <BusinessPartnership />
       <AdvertisingModels/>
+      <WorkWithUs/>
     </div>
   );
 };

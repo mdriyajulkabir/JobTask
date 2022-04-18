@@ -1,0 +1,33 @@
+.work-us-container{
+    background-color: #695de9;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0px 120px 0px;
+}
+.work-us-container>h1{
+    width: 60%;
+    margin: auto;
+    letter-spacing: 0.25px;
+    line-height: 60px;
+    padding-bottom: 60px;
+}
+.work-us-container>p{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.work-us-btn-div{
+    display: flex;
+    justify-content: center;
+}
+.work-us-btn{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background-color: #3ad08f;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 55px;
+}
+.work-us-btn:hover{
+    background-color: #42e29d;
+}
