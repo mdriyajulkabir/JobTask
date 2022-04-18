@@ -4,7 +4,7 @@ import "./BusinessPartnership.css";
 const BusinessPartnership = () => {
   return (
     <div>
-      <div className="row w-100 mb-5">
+      <div className="row w-100">
         <div className="col-lg-6 col-md-12 col-12 partnership-description order-1 order-sm-1 order-md-1 order-lg-0">
           <h1>A strong business partnership with an experienced team</h1>
           <p>
