@@ -30,11 +30,11 @@ const NavBar = () => {
               Advertising Solutions
             </NavLink>
             <NavLink
-              to="/trend-100"
+              to="/ace-odulleri"
               className={(navinfo) =>
                 navinfo.isActive ? "active" : "unactive"
               }>
-              Trend 100
+              Ace Rewards
             </NavLink>
           </Nav>
           <div className="nav-right-link">

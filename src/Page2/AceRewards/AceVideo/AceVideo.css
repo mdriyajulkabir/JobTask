@@ -1,0 +1,9 @@
+.ace-video{
+    overflow: hidden;
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+#myVideo{
+    max-width: 100%;
+}

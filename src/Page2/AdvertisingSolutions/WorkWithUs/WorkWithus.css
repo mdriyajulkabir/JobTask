@@ -31,3 +31,9 @@
 .work-us-btn:hover{
     background-color: #42e29d;
 }
+@media screen and (max-width:764px) {
+    .work-us-btn{
+        width: 90%;
+        margin: auto;
+    }
+}

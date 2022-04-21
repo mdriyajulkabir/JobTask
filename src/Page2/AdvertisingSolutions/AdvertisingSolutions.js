@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../Pages/Home/Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 import AdvertisingModels from "./AdvertisingModels/AdvertisingModels";
 import AdvertisingNumber from "./AdvertisingNumber/AdvertisingNumber";
@@ -15,6 +16,7 @@ const AdvertisingSolutions = () => {
       <BusinessPartnership />
       <AdvertisingModels/>
       <WorkWithUs/>
+      <Footer/>
     </div>
   );
 };
