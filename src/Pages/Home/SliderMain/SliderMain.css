@@ -2,6 +2,7 @@
   background-color: #f4f5f9;
   padding-top: 50px;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .slider-main-container > h1 {
   color: #85878e;

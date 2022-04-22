@@ -7,7 +7,7 @@ import "./Sayilarla.css";
 const Sayılarla = () => {
   return (
     <div className="sayilarla-container">
-      <h1>Sayılarla Şikayetvar</h1>
+      <h1>Complaints by Numbers</h1>
       <div className="row">
         <div className="col-lg-3 col-sm-12 col-md-6 card-container">
           <div className="row card">
@@ -15,7 +15,7 @@ const Sayılarla = () => {
               <img src={contact} alt="" />
             </div>
             <div className="col-lg-12 col-sm-8">
-              <span>Bireysel Üye Sayısı</span> <br />
+              <span>Number Of Individual Members</span> <br />
               <strong>7.991.032</strong>
             </div>
           </div>
@@ -26,7 +26,7 @@ const Sayılarla = () => {
               <img src={gaurd} alt="" />
             </div>
             <div className="col-lg-12 col-sm-8">
-              <span>Kayıtlı Marka</span> <br />
+              <span>Registered Brand</span> <br />
               <strong>155.511</strong>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Sayılarla = () => {
               <img src={check} alt="" />
             </div>
             <div className="col-lg-12 col-sm-8">
-              <span>Çözülen Şikayet</span> <br />
+              <span>Resolved Complaint</span> <br />
               <strong>1.923.051</strong>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Sayılarla = () => {
               <img src={eye} alt="" />
             </div>
             <div className="col-lg-12 col-sm-8">
-              <span>Son 30 Günde Ziyaretçi</span> <br />
+              <span>Visitors In The Last 30 Days</span> <br />
               <strong>20.896.914</strong>
             </div>
           </div>

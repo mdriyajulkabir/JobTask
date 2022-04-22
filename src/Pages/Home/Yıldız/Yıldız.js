@@ -10,7 +10,7 @@ const Yıldız = () => {
   }, []);
   return (
     <div className="yiliz-container">
-      <h1>Yıldız Sıralaması</h1>
+      <h1>Star Ranking</h1>
       <div className="select-input-container">
         <select class="form-select" id="inputGroupSelect02">
           <option selected>Choose</option>
@@ -29,7 +29,7 @@ const Yıldız = () => {
             checked
           />
           <label class="form-check-label" for="flexRadioDefault1">
-            Son 1 Yil
+            Last 1 Year
           </label>
         </div>
 
@@ -41,22 +41,22 @@ const Yıldız = () => {
             id="flexRadioDefault2"
           />
           <label class="form-check-label" for="flexRadioDefault2">
-            Tüm Zamanlar
+            All Times
           </label>
         </div>
         </div>
       </div>
       <p>
-        Bu sıralama, firmaların büyüklükleri, şikayet sayıları ve şikayet
-        oranlarından bağımsız olarak sadece <br /> şikayetçi memnuniyeti
-        puanlarına göre yapılmaktadır.
+      This ranking is made only according to the complainant satisfaction scores, regardless of the size <br /> of the companies, the number of complaints and the complaint rates.
+
+
       </p>
       <div className="item-div">
         {items.map((item) => (
           <Item key={item.id} item={item} />
         ))}
       </div>
-      <button>Devamını Göster</button>
+      <button>Show More</button>
     </div>
   );
 };

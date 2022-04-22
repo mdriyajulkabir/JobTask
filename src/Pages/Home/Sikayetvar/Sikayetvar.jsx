@@ -7,13 +7,11 @@ const Sikayetvar = () => {
       <div className="row w-100">
         <div className="col-lg-4 col-sm-12 col-12 video-description-container">
           <h1>
-            <span className="span-1">Şikayetvar</span> <br />
-            <span className="span-2">Nasıl Çalışır?</span>
+            <span className="span-1">have a complaint</span> <br />
+            <span className="span-2">How does it work?</span>
           </h1>
           <p>
-            Çözüm ve karar verme aracı olan Şikayetvar'da kafanızı rahatlatır ve
-            en doğru kararı alırsınız. 18 milyon ziyaretçi bu yolu izliyor ve
-            yılda 450 binin üzerinde şikâyet çözüme kavuşuyor!
+          With Complaintvar, which is a solution and decision-making tool, you can relax and take the right decision. 18 million visitors follow this path and over 450 thousand complaints are resolved annually!
           </p>
         </div>
         <div className="col-lg-8 col-sm-12 col-12 video-container">

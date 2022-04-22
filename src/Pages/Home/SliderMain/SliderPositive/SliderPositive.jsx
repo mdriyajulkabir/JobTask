@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
 import Slider from "react-slick";
 import reply from "../../../../images/AutoPlaySlider/reply.svg";
 const SliderPositive = () => {
@@ -14,9 +13,16 @@ const SliderPositive = () => {
     cssEase: "linear",
     responsive: [
       {
-        breakpoint: 480,
+        breakpoint: 720,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 985,
+        settings: {
+          slidesToShow: 2,
           slidesToScroll: 1
         }
       }
@@ -38,7 +44,7 @@ const SliderPositive = () => {
                 <img src={dt.img} className="slider-person-img me-3" alt="" />
                 <div>
                   <div className="d-flex">
-                    <NavLink to={`/uye/${dt.id}`} ><h4 className="me-3">{dt.name}</h4></NavLink>
+                    <h4 className="me-3">{dt.name}</h4>
                     <div className="d-flex align-items-start">
                       <img src={reply} className="pt-2 pe-2" alt="" />
                       <span>{dt.from}</span>

@@ -21,7 +21,7 @@ const Header = () => {
               className={(navinfo) =>
                 navinfo.isActive ? "active" : "unactive"
               }>
-              Şikayetler
+              Complaints
             </NavLink>
 
             <NavLink
@@ -29,7 +29,7 @@ const Header = () => {
               className={(navinfo) =>
                 navinfo.isActive ? "active" : "unactive"
               }>
-              Marka Karşılaştır
+              Compare Brands
             </NavLink>
             <NavLink
               to="/trend-100"
@@ -46,7 +46,7 @@ const Header = () => {
               className={(navinfo) =>
                 navinfo.isActive ? "active" : "unactive"
               }>
-              Sikayetyaz
+              Write A Complaint
             </NavLink>
           </div>
         </Navbar.Collapse>

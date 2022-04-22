@@ -12,12 +12,12 @@ const Footer = () => {
           <ul className="link-primary">
             <li>
               <a href="#hakkımızda" title="Hakkımızda">
-                Hakkımızda
+                About Us
               </a>
             </li>
             <li>
               <a href="#Markalar İçin" title="Markalar İçin">
-                Markalar İçin
+                For Brands
               </a>
             </li>
             <li>
@@ -27,17 +27,17 @@ const Footer = () => {
             </li>
             <li>
               <a href="#Ürün Rehberi" title="Ürün Rehberi">
-                Ürün Rehberi
+               Product Guide
               </a>
             </li>
             <li>
               <a href="#Sıkça Sorulan Sorular" title="Sıkça Sorulan Sorular">
-                Sıkça Sorulan Sorular
+                Frequently Asked Question
               </a>
             </li>
             <li>
               <a href="#İletişim" title="İletişim">
-                İletişim
+                Communication
               </a>
             </li>
           </ul>

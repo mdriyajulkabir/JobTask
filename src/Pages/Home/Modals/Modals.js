@@ -19,7 +19,7 @@ const Modals = () => {
           key={idx}
           className="modal-button"
           onClick={() => handleShow(v)}>
-          Giriş Yap / Üye Ol
+          Login / Register
           {typeof v === "string" && `below ${v.split("-")[0]}`}
         </Button>
       ))}

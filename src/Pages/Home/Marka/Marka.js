@@ -4,26 +4,27 @@ const Marka = () => {
   return (
     <div className="marka-body px-4 py-5">
       <div className="w-100 marka-container">
-        <h3 className="text-white">Marka Karşılaştırması</h3>
+        <h3 className="text-white">Brand Comparison</h3>
         <br />
         <h4 className="fw-light marka-title">
           <span className="text-white">
-            Her gün yüzbinlerce kişi alışverişten önce Şikayetvar’a geliyor.
-            Hangi <br /> markayı seçeceğine
+          Every day, hundreds of thousands of people come to complain before <br /> shopping.
           </span>{" "}
-          <span className="text-success"> burada karar veriyor</span>{" "}
-          <span className="text-white"></span>
+          <span className="text-success"> Here he decides</span>{" "}
+          <span className="text-white">which brand to choose .
+</span>
         </h4>
         <p className="karma-p">
-          Markaların müşteri memnuniyeti ve şikayet yönetimi konusunda <br />
-          performanslarını karşılaştırın, kararınızı kolayca verin
+        Compare the performances of brands in customer satisfaction and <br />
+        complaint management, and make your decision easily.
+
         </p>
         <div>
-          <input type="text" placeholder="1. Marka" className="karma-input" />
-          <span style={{ color: "#686677" }} className='karma-span'>ile</span>
-          <input type="text" placeholder="1. Marka" className="karma-input-2" />
+          <input type="text" placeholder="1. Brand" className="karma-input" />
+          <span style={{ color: "#686677" }} className='karma-span'>with</span>
+          <input type="text" placeholder="1. Brand" className="karma-input-2" />
 
-          <input type="button" id="karma-btn" value="Karşılaştır" />
+          <input type="button" id="karma-btn" value="Compare" />
         </div>
         <div>
           <div className="half-circle" />

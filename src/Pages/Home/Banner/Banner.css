@@ -1,5 +1,6 @@
 .banner-container {
   background-color: #f4f5f9;
+  overflow: hidden;
 }
 .banner-header {
   display: flex;

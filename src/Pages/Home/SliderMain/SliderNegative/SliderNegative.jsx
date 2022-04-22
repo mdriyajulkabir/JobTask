@@ -14,12 +14,19 @@ const SliderNegative = () => {
     cssEase: "linear",
     responsive: [
       {
-        breakpoint: 480,
+        breakpoint: 720,
         settings: {
           slidesToShow: 1,
           slidesToScroll: -1,
         },
       },
+      {
+        breakpoint: 985,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      }
     ],
   };
   const [datas, setData] = useState([]);

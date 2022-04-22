@@ -5,14 +5,13 @@ const Tuketici = () => {
   return (
     <div className="tuketici-container">
       <div className="w-75 mx-auto ">
-        <h1>Tüketici deneyimi, sizin markanız</h1>
+        <h1>Consumer experience, your brand</h1>
         <h5>
-          Olumsuz alışveriş deneyimi yaşayan müşteriler, bu süreci 250 kişiyle
-          paylaşıyor. <br />
-          Müşteri odaklı kültürün parçası olmak ve mutlu müşteriler yaratmak
-          için:
+        Customers who have had a negative shopping experience share this process with 250 people. <br />
+        To be a part of a customer-oriented culture and create happy customers:
+          
         </h5>
-        <NavLink to='/kurumsal-uyelik'><button>Birlikte çalışalım</button></NavLink>
+        <NavLink to='/kurumsal-uyelik'><button>Let's Study Together</button></NavLink>
       </div>
     </div>
   );

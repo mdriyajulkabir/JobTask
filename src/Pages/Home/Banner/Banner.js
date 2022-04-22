@@ -7,12 +7,12 @@ const Banner = () => {
       <div className="row w-100">
         <div className="col-lg-6 col-sm-12  order-1 order-lg-0  banner-header">
           <h1>
-            <strong>Çözüm için</strong> <br />
-            Şikayetvar
+            <strong>Complaint for</strong> <br />
+            Solution
           </h1>
           <div>
-            <input type="text" placeholder="Marka, model, ürün ara" />
-            <button id="ara">Ara</button>
+            <input type="text" placeholder="Search for brands, models, products" />
+            <button id="ara">Search</button>
             <button id="btn-search">
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>

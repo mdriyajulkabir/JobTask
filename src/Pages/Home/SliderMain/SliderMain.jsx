@@ -5,7 +5,7 @@ import SliderPositive from "./SliderPositive/SliderPositive";
 const SliderMain = () => {
   return (
     <div className="w-100 slider-main-container">
-      <h1>Gündemdeki Şikayetler</h1>
+      <h1>Complaints on the Agenda</h1>
       <SliderPositive />
       <SliderNegative />
     </div>

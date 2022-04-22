@@ -1,0 +1,28 @@
+
+
+.success-description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.success-description>h1{
+    font-size: 46px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+.success-description>h5{
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.success-description>p{
+    color: #7c7b85;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 25px;
+}
+.success-description>p>span{
+    color: Red;
+    font-weight: 800;
+}
