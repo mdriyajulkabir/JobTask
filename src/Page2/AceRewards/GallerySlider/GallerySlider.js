@@ -43,11 +43,10 @@ const GallerySlider = () => {
                 src={galleryImg[i]}
                 alt=""
                 style={{
-                  width: "65px",
-                  height: "65px",
                   objectFit: "cover",
                   borderRadius: "20px",
                 }}
+              className='gallery-img-bottom'
               />
             </div>
           );
@@ -56,7 +55,7 @@ const GallerySlider = () => {
             {
                 galleryImg.map((item) =>(
                     <div>
-                    <img src={item} alt="" style={{ width: "80%", height: "50vh", margin: 'auto' }} />
+                    <img src={item} alt="" style={{ width: "80%", height: "75vh", margin: 'auto' }} />
                     </div>
                 ))
             }

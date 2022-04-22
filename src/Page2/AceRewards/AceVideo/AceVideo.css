@@ -1,9 +1,33 @@
-.ace-video{
-    overflow: hidden;
-    width: 100%;
-    margin: 0px !important;
-    padding: 0px !important;
+.ace-video {
+  overflow: hidden;
+  width: 100%;
+  margin: 0px !important;
+  padding: 0px !important;
 }
-#myVideo{
-    max-width: 100%;
+#myVideo {
+  max-width: 100%;
+}
+
+.ace-video > h4 {
+  text-align: center;
+  color: #afb0b6;
+  font-weight: 400;
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+.ace-video > h2 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 400;
+  color: #3a384a;
+  padding-bottom: 40px;
+}
+.ace-video > h2 > span {
+  font-weight: 600;
+}
+.ace-video > a {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    padding-bottom: 50px;
 }
