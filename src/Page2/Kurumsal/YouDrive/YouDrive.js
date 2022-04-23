@@ -1,7 +1,7 @@
 import React from "react";
 import degisimiImg from "../../../images/Page2_img/desktop-row-changes-nav.png";
-import "./DegisimiSiz.css";
-const DegisimiSiz = () => {
+import "./YouDrive.css";
+const YouDrive = () => {
   return (
     <div className="my-5 py-5">
       <div className="row w-100">
@@ -9,17 +9,15 @@ const DegisimiSiz = () => {
           <img src={degisimiImg} className="degisimiImg img-fluid mb-5" alt="" />
         </div>
         <div className="col-12 col-md-12 col-lg-5 degisimisiz-description">
-          <h1 className="degisimisiz-header">Değişimi Siz <br /> Yönlendirin</h1>
+          <h1 className="degisimisiz-header">You  Drive the Change</h1>
           <h5 className="degisimisiz-p">
-            Şikayet sayısını, çözümle ilgili müşteri değerlendirmelerini ve <br />
-            memnuniyet puanınızdaki değişimleri takip edebilir, geçmiş 
-            dönemlerle karşılaştırabilirsiniz.
+          You can follow the number of complaints, customer evaluations <br /> regarding the solution and the changes in your satisfaction <br /> score, and compare them with previous periods.
           </h5>
-          <button className="degisimisiz-btn">Hemen Üye Ol</button>
+          <button className="degisimisiz-btn">Sign Up Now</button>
         </div>
       </div>
     </div>
   );
 };
 
-export default DegisimiSiz;
+export default YouDrive;

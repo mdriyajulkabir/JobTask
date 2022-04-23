@@ -1,17 +1,15 @@
 import React from "react";
-import "./Musterilerinizle.css";
+import "./Communicate.css";
 import musterilerinizelImg from "../../../images/Page2_img/desktop-row-customer-directly-contact.png";
-const Musterilerinizle = () => {
+const Communicate = () => {
   return (
     <div className="my-5 py-5">
       <div className="row w-100">
         <div className="col-12 col-lg-6 musterilerinizle-description-div order-1 order-md-1 order-lg-0">
-          <h1 className="musterilerinizle-header">Müşterilerinizle Direkt <br /> İletişim Kurun.</h1>
+          <h1 className="musterilerinizle-header">Communicate Directly <br />  With Your Customers.</h1>
           <h5 className="musterilerinizel-p">
-            Her ay milyonlarca ziyaretçi, şikayetleri ve markaların <br /> cevaplarını
-            okuyarak fikir sahibi olur, alışveriş kararlarını <br /> bunlara göre
-            verir. <br /> Şikayetvar yönetim panelinden tüm şikayetleri kolayca takip <br />
-            edebilir, müşterilerinizle anında iletişime geçebilirsiniz.
+          Every month, millions of visitors get an idea by reading the <br /> complaints and the answers of the brands and make their<br /> shopping decisions accordingly. <br /> You can easily track all complaints from the Complaints <br />
+          management panel, and instantly communicate with your customers.
           </h5>
         </div>
         <div className="col-12 col-lg-6 order-0 order-md-0 order-lg-1">
@@ -22,4 +20,4 @@ const Musterilerinizle = () => {
   );
 };
 
-export default Musterilerinizle;
+export default Communicate;

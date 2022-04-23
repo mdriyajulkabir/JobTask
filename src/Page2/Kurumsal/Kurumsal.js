@@ -1,30 +1,28 @@
 import React from "react";
 import Footer from "../../Pages/Home/Footer/Footer";
 import NavBar from "../NavBar/NavBar";
-import Birlikte from "./Birlikte/Birlikte";
-import DegisimiSiz from "./DegisimiSiz/DegisimiSiz";
-// import KurumsalBanner from './KurumsalBanner/KurumsalBanner';
+import BrandsWeWork from "./BrandsWeWork/BrandsWeWork";
+import YouDrive from "./YouDrive/YouDrive";
 import KurumsalFeature from "./KurumsalFeature/KurumsalFeature";
-import KurumsalOnline from "./KurumsalOnline/KurumsalOnline";
-import MarkaSayfasi from "./MarkaSayfasi/MarkaSayfasi";
-import Musterilerinizle from "./Musterilerinizle/Musterilerinizle";
-import RakipAnalizi from "./RakipAnalizi/RakipAnalizi";
-import SikayetvarKurumsal from "./SikayetvarKurumsal/SikayetvarKurumsal";
+import Strengthen from "./Strengthen/Strengthen";
+import BrandPage from "./BrnadPage/BrandPage";
+import Communicate from "./Communicate/Communicate.js";
+import DoCompetitor from "./DoCompetitor/DoCompetitor";
+import WorkWithUs from "../AdvertisingSolutions/WorkWithUs/WorkWithUs";
 
 const Kurumsal = () => {
   return (
     <div>
       <NavBar />
-      {/* <KurumsalBanner/> */}
       <KurumsalFeature />
-      <MarkaSayfasi />
-      <KurumsalOnline />
-      <Musterilerinizle />
-      <DegisimiSiz />
-      <RakipAnalizi />
-      <Birlikte />
-      <SikayetvarKurumsal/>
-      <Footer/>
+      <BrandPage />
+      <Strengthen />
+      <Communicate />
+      <YouDrive />
+      <DoCompetitor />
+      <BrandsWeWork />
+      <WorkWithUs />
+      <Footer />
     </div>
   );
 };

@@ -12,22 +12,22 @@ const KurumsalFeature = () => {
             <img src={brand} className="feature-img" alt="" />
           </div>
           <div>
-            <h1 className="feature-header">150 bin</h1>
-            <h5 className="feature-des">Kayıtlı Marka</h5>
+            <h1 className="feature-header">150 thousand</h1>
+            <h5 className="feature-des">Registered Brand</h5>
           </div>
         </div>
         <div className="col-12 col-lg-3 col-sm-6">
           <img src={memberCount} className="feature-img" alt="" />
-          <h1 className="feature-header">7.8 milyon</h1>
-          <h5 className="feature-des">Bireysel Üye Sayısı</h5>
+          <h1 className="feature-header">7.8 million</h1>
+          <h5 className="feature-des">Number of Individual Members</h5>
         </div>
         <div className="col-12 col-lg-3 col-sm-6">
           <div>
             <img src={peopleCount} className="feature-img" alt="" />
           </div>
           <div>
-            <h1 className="feature-header">20 milyon</h1>
-            <h5 className="feature-des">Son 30 Günde Ziyaretçi</h5>
+            <h1 className="feature-header">20 million</h1>
+            <h5 className="feature-des">Visitors in the Last 30 Days</h5>
           </div>
         </div>
         <div className="col-12 col-lg-3 col-sm-6">
@@ -39,8 +39,8 @@ const KurumsalFeature = () => {
             />
           </div>
           <div>
-            <h1 className="feature-header">70 milyon</h1>
-            <h5 className="feature-des">Aylık Sayfa Gösterimi</h5>
+            <h1 className="feature-header">70 million</h1>
+            <h5 className="feature-des">Monthly Page Views</h5>
           </div>
         </div>
       </div>

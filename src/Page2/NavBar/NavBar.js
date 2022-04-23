@@ -43,7 +43,7 @@ const NavBar = () => {
               className={(navinfo) =>
                 navinfo.isActive ? "active" : "unactive"
               }>
-              Sikayetyaz
+              Write A Complaint
             </NavLink>
           </div>
         </Navbar.Collapse>

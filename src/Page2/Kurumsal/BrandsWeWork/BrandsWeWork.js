@@ -14,13 +14,13 @@ import img12 from "../../../images/Page2_img/BrandName/img12.png";
 import img13 from "../../../images/Page2_img/BrandName/img13.png";
 import img14 from "../../../images/Page2_img/BrandName/img14.png";
 import img15 from "../../../images/Page2_img/BrandName/img15.png";
-import "./Birlikte.css";
-const Birlikte = () => {
+import "./BrandsWeWork.css";
+const BrandsWeWork = () => {
   return (
     <div className="birlikte-main-container py-5 mt-5">
-      <h1 className="birlikte-header">Birlikte çalıştığımız markalar</h1>
+      <h1 className="birlikte-header">Brand we work with</h1>
       <h1 className="birlikte-a">
-        <a href="#a">3.000 üye marka</a>
+        <a href="#a">3.000 member brands</a>
       </h1>
       <div className="rw w-100 container-fluid birlikte-container pb-5">
         <div className="col-4 col-md-4 col-lg-2 birlikte-img-div">
@@ -73,4 +73,4 @@ const Birlikte = () => {
   );
 };
 
-export default Birlikte;
+export default BrandsWeWork;

@@ -1,7 +1,7 @@
 import React from "react";
 import onlineImg from "../../../images/Page2_img/desktop-row-online-contact.png";
-import "./kurumsalOnline.css";
-const KurumsalOnline = () => {
+import "./Strengthen.css";
+const Strengthen = () => {
   return (
     <div>
       <div className="row w-100 my-5 py-5">
@@ -9,14 +9,12 @@ const KurumsalOnline = () => {
           <img src={onlineImg} className="img-fluid mb-5" alt="" />
         </div>
         <div className="col-12  col-lg-5 online-description-div">
-          <h1 className="w-75 online-header">Online İtibarınızı Güçlendirin</h1>
+          <h1 className="w-75 online-header">Strengthen Your Online Reputation</h1>
           <h5 className="online-p">
-            Markanızla ilgili aramalarda Şikayetvar'daki memnuniyet puanınız,
-            yıldızlarınız ve çözülen şikayetleriniz öne çıkar. Böylece
-            markanızın görünürlüğü ve güvenirliği artar.
+          In searches about your brand, your satisfaction score, stars and resolved complaints in Complaints come to the fore. This increases the visibility and reliability of your brand.
           </h5>
           <button type="submit" className="online-btn">
-            Kurumsal Üye Ol
+          Become a Corporate Member
           </button>
         </div>
       </div>
@@ -24,4 +22,4 @@ const KurumsalOnline = () => {
   );
 };
 
-export default KurumsalOnline;
+export default Strengthen;
