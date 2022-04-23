@@ -63,7 +63,7 @@ const Footer = () => {
       <hr />
       <div className="footer-secondary row">
         <div className="col-lg-4 col-sm-12">
-          <h4>Şikayetler</h4>
+          <h4>Complaints</h4>
           <ul>
             <li>
               <a
@@ -142,7 +142,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-lg-2 col-sm-12">
-          <h4>Markalar</h4>
+          <h4>Brands</h4>
           <ul>
             <li>
               <a href="#CK Boğaziçi Elektrik" title="CK Boğaziçi Elektrik">

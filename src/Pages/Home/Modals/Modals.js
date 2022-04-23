@@ -37,17 +37,17 @@ const Modals = () => {
             <div className="col-lg-9 sign-in-container">
               <img src={logoMini} className="logo-mini" alt="" />
               <div className="sign-in-header">
-                <h4>Giriş Yap</h4>
+                <h4>Login</h4>
                 <button className="new-sign-up-btn">
-                  Hesabınız yok mu? Üye Ol.
+                  Don't have an account? Sign up.
                 </button>
               </div>
               <div className="btn-container">
                 <button className="facebook-btn">
-                  <i class="fa-brands fa-facebook"></i> Facebook ile Giriş Yap
-                </button>
+                  <i class="fa-brands fa-facebook"></i> login
+with Facebook                </button>
                 <button className="google-btn">
-                  <i class="fa-brands fa-google"> </i>Google ile Giriş Yap
+                  <i class="fa-brands fa-google"> </i> Sign in with google
                 </button>
               </div>
               <input
@@ -55,7 +55,7 @@ const Modals = () => {
                 name=""
                 id=""
                 className="input-email"
-                placeholder="E-posta veya GSM No"
+                placeholder="Email or GSM No"
               />{" "}
               <br />
               <input
@@ -63,10 +63,10 @@ const Modals = () => {
                 name=""
                 id=""
                 className="input-password"
-                placeholder="Şifre (En az 8 Karakter)"
+                placeholder="Password (Minimum 8 Characters)"
               />
               <button type="submit" id="sign-in">
-                Giriş Yap
+                Login
               </button>
             </div>
           </div>

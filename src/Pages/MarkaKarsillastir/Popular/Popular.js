@@ -9,7 +9,7 @@ const Popular = () => {
   }, []);
   return (
     <div>
-      <h3 className="popular-header">Popüler karşılaştırmalar</h3>
+      <h3 className="popular-header">Popular comparisons</h3>
 
       <div className=" row w-100 popular-card-container">
         <div className="col-lg-9 col-sm-12 col-12">
@@ -41,7 +41,7 @@ const Popular = () => {
                   </div>
                 ))}
                 <button type="submit" id="popular-btn">
-                  Karşılaştır
+                  compare
                 </button>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Popular = () => {
                   </div>
                 ))}
                 <button type="submit" id="popular-btn">
-                  Karşılaştır
+                  compare
                 </button>
               </div>
             </div>
@@ -103,7 +103,7 @@ const Popular = () => {
                   </div>
                 ))}
                 <button type="submit" id="popular-btn">
-                  Karşılaştır
+                  compare
                 </button>
               </div>
             </div>
@@ -134,7 +134,7 @@ const Popular = () => {
                   </div>
                 ))}
                 <button type="submit" id="popular-btn">
-                  Karşılaştır
+                  compare
                 </button>
               </div>
             </div>
@@ -165,7 +165,7 @@ const Popular = () => {
                   </div>
                 ))}
                 <button type="submit" id="popular-btn">
-                  Karşılaştır
+                  compare
                 </button>
               </div>
             </div>
@@ -196,7 +196,7 @@ const Popular = () => {
                   </div>
                 ))}
                 <button type="submit" id="popular-btn">
-                  Karşılaştır
+                  compare
                 </button>
               </div>
             </div>
@@ -227,7 +227,7 @@ const Popular = () => {
                   </div>
                 ))}
                 <button type="submit" id="popular-btn">
-                  Karşılaştır
+                  compare
                 </button>
               </div>
             </div>
@@ -258,7 +258,7 @@ const Popular = () => {
                   </div>
                 ))}
                 <button type="submit" id="popular-btn">
-                  Karşılaştır
+                  compare
                 </button>
               </div>
             </div>

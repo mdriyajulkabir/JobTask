@@ -28,7 +28,7 @@ const Trend100 = () => {
           </div>
           <div className="col-lg-4 col-sm12 col-12">
             <div className="social_icon ">
-              <p className="paylas">Paylaş</p>
+              <p className="paylas">Share</p>
               <p className="tweeter">
                 <i className="fab fa-twitter-square i-icon"></i>
               </p>
@@ -47,7 +47,7 @@ const Trend100 = () => {
             </div>
           </div>
           <p className="pt-3 t-text">
-              Trend 100, Türkiye’de en fazla merak edilen markaları listeler.
+          Trend 100, lists the most curious brands in Turkey.
             </p>
         </div>
       </div>
@@ -55,7 +55,7 @@ const Trend100 = () => {
         <div className="row fw-bold pt-5" style={{ color: "#afb0b6" }}>
           <div className="col">
             <p className="">
-              <small>Marka</small>
+              <small>Brand</small>
             </p>
           </div>
           <div className="col">
@@ -64,10 +64,10 @@ const Trend100 = () => {
                 <small>Trend</small>
               </p>
               <p>
-                <small>Ziyaret Artışı</small>
+                <small>Visitor Increase</small>
               </p>
               <p>
-                <small>Önceki Sıralama</small>
+                <small>Previous Sort</small>
               </p>
             </div>
           </div>

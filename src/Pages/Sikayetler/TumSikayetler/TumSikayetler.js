@@ -14,8 +14,8 @@ const TumSikayetler = () => {
       <div className="row w-100">
         <div className="col-lg-8 col-sm-12 order-lg-0 order-1">
           <div className="d-flex align-items-center mt-5 ms-5 tum-sikayetler-header">
-            <h1>Tüm Şikayetler</h1>
-            <h5>9.012.094 şikayet</h5>
+            <h1>All Complaints</h1>
+            <h5>9.012.094 complaints</h5>
           </div>
           <hr className="ms-5" />
           <div>
@@ -37,22 +37,22 @@ const TumSikayetler = () => {
                 <h2 className="post-title">{post.title}</h2>
                 <h5 className="post-description">{post.description}</h5>
                 <a href="#readmore" className="post-read-more">
-                  Devamini Oku
+                  Read more
                 </a>
                 <br /> <br />
                 <hr />
                 <div className="d-flex justify-content-between post-like-comment">
                   <h5>
                     <i class="fa-regular fa-thumbs-up"></i>
-                    Destekle
+                    support 
                   </h5>
                   <h5>
                     <i class="fa-regular fa-comment"></i>
-                    Yorum Yap
+                    Comment
                   </h5>
                   <h5>
                     <i class="fa-regular fa-bookmark"></i>
-                    Kaydet
+                    Save
                   </h5>
                 </div>
               </div>
@@ -64,25 +64,25 @@ const TumSikayetler = () => {
         <div className="col-lg-4 col-sm-12 p-3 order-lg-1 order-0">
           <div className="filter-container">
             <div className="position-relative">
-              <input type="text" className="filter-search" />
+              <input type="text" placeholder="Search within complaints" className="filter-search" />
               <button type="submit" className="filter-submit-btn">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </button>
             </div>
             <div className="text-white d-flex align-items-center my-4">
               <i class="fa-solid fa-filter me-3"></i>
-              <h3>Filtrele</h3>
+              <h3>Filter</h3>
             </div>
             <Form.Check
               type="checkbox"
               id="default-checkbox"
-              label="Çözülen Şikayetler"
+              label="Resolved Complaints"
               style={{ color: "#656374", fontWeight: 600, fontSize: "20px" }}
             />
             <Form.Check
               type="checkbox"
               id="default-checkbox"
-              label="Videolu Şikayetler"
+              label="video Complaints"
               style={{
                 color: "#656374",
                 fontWeight: 600,
@@ -93,7 +93,7 @@ const TumSikayetler = () => {
             <Form.Check
               type="checkbox"
               id="default-checkbox"
-              label="Fotoğraflı Şikayetler"
+              label="Photo Complaints"
               style={{
                 color: "#656374",
                 fontWeight: 600,
@@ -105,7 +105,7 @@ const TumSikayetler = () => {
             <div className="d-flex align-items-center justify-content-between mt-5">
               <div className="d-flex align-items-center text-white">
                 <i class="fa-solid fa-arrow-down-wide-short"></i>
-                <h3 className="ms-3">Sirala</h3>
+                <h3 className="ms-3">Sort by</h3>
               </div>
               <DropdownButton
                 variant="outline-secondary"
