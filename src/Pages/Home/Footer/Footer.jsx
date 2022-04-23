@@ -197,7 +197,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-lg-3 col-sm-12">
-          <h4>Çok Arananlar</h4>
+          <h4>Most Wanted</h4>
           <div className="row">
             <div className="col-6">
               <ul>
@@ -325,7 +325,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="col-lg-3 col-sm-12">
-          <h4>Karşılaştırmalar</h4>
+          <h4>Comparisons</h4>
           <ul>
             <li>
               <a
@@ -393,7 +393,7 @@ const Footer = () => {
             </li>
             <li>
               <a href="#Tüm Karşılaştırmalar" title="Tüm Karşılaştırmalar">
-                Tüm Karşılaştırmalar
+                All Comparisons
               </a>
             </li>
           </ul>
@@ -403,15 +403,15 @@ const Footer = () => {
         <div>
           <ul className="d-flex">
             <li className="pe-3">
-              <a href="#gizlilik">Gizililik</a>
+              <a href="#gizlilik">Security</a>
             </li>
             <li>
-              <a href="#gizlilik">Kullanmim Sartlari</a>
+              <a href="#gizlilik">Terms Of Use</a>
             </li>
           </ul>
         </div>
         <div>
-          <span>&copy;2022 Şikayetvar. Her hakkı saklıdır.</span>
+          <span>&copy;2022 Complaints. All right reserved.</span>
         </div>
       </div>
     </div>

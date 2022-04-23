@@ -21,35 +21,35 @@ const SikayetYaz = () => {
             </NavLink>{" "}
             <br />
             <i class="fa-solid fa-pencil edit-icon"></i> <br />
-            <h1 className="sikayetyaz-header">Şikayet Oluştur</h1>
+            <h1 className="sikayetyaz-header">Create Complement</h1>
             <Row>
               <Col sm={7}>
                 <Nav className="flex-column tab-container">
                   <Nav.Item className=" ">
                     <Nav.Link eventKey="first" className=" nav-active">
                       <div className="tab-name">
-                        <span className="tab-number">1</span> Şikayet
+                        <span className="tab-number">1</span> Complaint Detail
                       </div>
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="second" className="w-100 nav-active">
                       <div className="tab-name">
-                        <span className="tab-number">2</span> Başlık
+                        <span className="tab-number">2</span> Title
                       </div>
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="third" className="w-100 nav-active">
                       <div className="tab-name">
-                        <span className="tab-number">3</span> Marka
+                        <span className="tab-number">3</span> Brand
                       </div>
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="fourth" className="w-100 nav-active">
                       <div className="tab-name">
-                        <span className="tab-number">4</span> Belge
+                        <span className="tab-number">4</span> Document
                       </div>
                     </Nav.Link>
                   </Nav.Item>
@@ -69,14 +69,14 @@ const SikayetYaz = () => {
                   className={(navinfo) =>
                     navinfo.isActive ? "active" : "unactive"
                   }>
-                  Şikayetler
+                  Complaints
                 </NavLink>
                 <NavLink
                   to="/karsilastir"
                   className={(navinfo) =>
                     navinfo.isActive ? "active" : "unactive"
                   }>
-                  Marka Karşılaştır
+                  Compare Brands
                 </NavLink>
                 <NavLink
                   to="/trend-100"
@@ -87,7 +87,7 @@ const SikayetYaz = () => {
                 </NavLink>
               </div>
             </div>
-            <h5>Şikayet Oluştur</h5>
+            <h5>Complaints Details</h5>
             <Tab.Content>
               <Tab.Pane eventKey="first">
                 <textarea

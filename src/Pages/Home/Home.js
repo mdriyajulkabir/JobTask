@@ -20,7 +20,7 @@ const Home = () => {
       <Sikayetvar />
       <Sayılarla />
       <Tuketici />
-      <Footer />-
+      <Footer />
     </div>
   );
 };
