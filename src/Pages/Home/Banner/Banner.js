@@ -10,7 +10,7 @@ const Banner = () => {
             <strong>Complaint for</strong> <br />
             Solution
           </h1>
-          <div>
+          <div className="search-input-div">
             <input type="text" placeholder="Search for brands, models, products" />
             <button id="ara">Search</button>
             <button id="btn-search">

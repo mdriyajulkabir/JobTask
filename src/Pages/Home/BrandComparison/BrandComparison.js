@@ -1,6 +1,6 @@
 import React from "react";
-import "./Marka.css";
-const Marka = () => {
+import "./BrandComparison.css";
+const BrandComparison = () => {
   return (
     <div className="marka-body px-4 py-5">
       <div className="w-100 marka-container">
@@ -38,4 +38,4 @@ const Marka = () => {
   );
 };
 
-export default Marka;
+export default BrandComparison;

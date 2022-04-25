@@ -211,3 +211,16 @@
     padding-right: 120px;
   }
 }
+@media screen and (min-width:416px) and (max-width:962px) {
+  .karma-input{
+    width: 90%;
+  }
+  .karma-input-2{
+    width: 90%;
+  }
+  .karma-span{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}

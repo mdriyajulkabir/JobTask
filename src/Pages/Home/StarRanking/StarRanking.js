@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Item from "./Item/Item";
-import "./Yildiz.css";
-const Yıldız = () => {
+import "./StarRanking.css";
+const StarRanking = () => {
   const [items, setItems] = useState([]);
   useEffect(() => {
     fetch("output.json")
@@ -61,4 +61,4 @@ const Yıldız = () => {
   );
 };
 
-export default Yıldız;
+export default StarRanking;

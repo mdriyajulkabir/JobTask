@@ -22,8 +22,12 @@
   border-radius: 40px;
   border: none;
   height: 55px;
+  width: 100%;
   outline: none;
   font-weight: 600;
+}
+.search-input-div{
+position: relative;
 }
 #ara {
   color: #fff;
@@ -33,7 +37,7 @@
   border: 1px solid #afb0b6;
   background-color: #3ad08f;
   position: absolute;
-  right: 15%;
+  right: 0%;
 }
 #btn-search {
   display: none;
