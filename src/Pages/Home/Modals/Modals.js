@@ -6,7 +6,7 @@ import logoMini from "../../../images/logo-mini.svg";
 import "./Modals.css";
 const Modals = () => {
   const values = [true];
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const [fullscreen, setFullscreen] = useState(true);
   function handleShow(breakpoint) {
     setFullscreen(breakpoint);
