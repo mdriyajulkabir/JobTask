@@ -14,23 +14,55 @@
   color: #3a384a;
   text-decoration: none;
 }
-.active {
+.actives {
   color: #3a384a;
   text-decoration: none;
   padding-right: 20px;
   font-size: 18px;
   font-weight: 600;
 }
-.active:hover {
+.actives:hover {
   color: #3a384a;
 }
-@media screen and (max-width: 900px) {
+#write-complement{
+  color: #fff;
+  background-color: #695de9;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+#basic-navbar-nav{
+  margin-left: 15px;
+}
+@media screen and (min-width:993px) and (max-width:1140px) {
+  #header-img-div{
+    width: 220px !important;
+  }
+  .header-img{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
   .header-img {
+  margin-left: 15px;
     width: 160px;
     padding-left: 0px;
   }
   .nav-right-link {
     display: flex;
     flex-direction: column;
+  }
+  #write-complement{
+    width: 40%;
+  }
+}
+@media screen and (max-width:555px) {
+  #write-complement{
+    width: 60%;
+  }
+}
+@media screen and (min-width:1140px) and (max-width: 1156px) {
+  .actives{
+    display: none;
   }
 }

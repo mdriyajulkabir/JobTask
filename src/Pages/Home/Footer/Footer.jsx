@@ -8,7 +8,7 @@ const Footer = () => {
         <img src={footerLogo} alt="Şikayetvar" className="footer-img" />
       </a>
       <div className="row footer-primary">
-        <div className="col-lg-9 col-sm-12">
+        <div className="col-lg-9 col-sm-12 col-md-12 order-lg-0 order-md-0 order-sm-1 order-1">
           <ul className="link-primary">
             <li>
               <a href="#hakkımızda" title="Hakkımızda">
@@ -42,7 +42,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="col-lg-3 col-sm-12 social-media">
+        <div className="col-xxl-3 col-lg-12 col-md-12 col-sm-12 social-media order-lg-1 order-md-1 order-sm-0 order-0 ">
           <a href="#instagram">
             <i className="fa-brands fa-instagram"></i>
           </a>

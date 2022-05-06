@@ -16,11 +16,14 @@
   margin-bottom: 36px;
   border-radius: 20px;
 }
-.popular-item-img-div {
+/* .popular-item-img-div {
   background-color: #fff;
   padding: 0px 5px;
   border-radius: 10px;
-}
+} */
+/* .popular-item-img{
+  width: 110px;
+} */
 .popular-item-p {
   color: #afb0b6;
   font-weight: 700;
@@ -40,6 +43,12 @@
 #popular-btn:hover {
   background-color: #afb0b6;
   color: #fff;
+}
+@media screen and (max-width:991px) {
+  .popular-card-container{
+    padding: 0px 0px;
+    padding-left: 60px;
+  }
 }
 @media screen and (max-width: 415px) {
   .popular-card-container {

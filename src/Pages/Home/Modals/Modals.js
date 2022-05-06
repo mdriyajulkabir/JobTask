@@ -6,7 +6,7 @@ import logoMini from "../../../images/logo-mini.svg";
 import "./Modals.css";
 const Modals = () => {
   const values = [true];
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   const [fullscreen, setFullscreen] = useState(true);
   function handleShow(breakpoint) {
     setFullscreen(breakpoint);
@@ -34,7 +34,7 @@ const Modals = () => {
               <img src={pattern} className="pattern-img" alt="" />
               {/* <h1>lshfs </h1> */}
             </div>
-            <div className="col-lg-9 sign-in-container">
+            <div className="col-lg-9 col-12 col-md-12 col-sm-12 sign-in-container">
               <img src={logoMini} className="logo-mini" alt="" />
               <div className="sign-in-header">
                 <h4>Login</h4>
@@ -44,8 +44,8 @@ const Modals = () => {
               </div>
               <div className="btn-container">
                 <button className="facebook-btn">
-                  <i class="fa-brands fa-facebook"></i> login
-with Facebook                </button>
+                  <i class="fa-brands fa-facebook"></i> login with Facebook{" "}
+                </button>
                 <button className="google-btn">
                   <i class="fa-brands fa-google"> </i> Sign in with google
                 </button>

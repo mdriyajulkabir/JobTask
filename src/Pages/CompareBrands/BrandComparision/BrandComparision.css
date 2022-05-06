@@ -52,6 +52,27 @@
   margin-left: 45px;
   font-weight: bold;
 }
+@media screen and (min-width:416px) and (max-width: 1208px) {
+  .marka-input{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .marka-input-2{
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+
+  }
+  .marka-span{
+    display: flex;
+    justify-content: center;
+  }
+  #marka-btn{
+    margin-left: 0px;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 415px) {
   .marka-input-body {
     padding: 15px 10px;

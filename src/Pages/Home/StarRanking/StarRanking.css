@@ -23,7 +23,9 @@
   justify-content: center;
   align-items: center;
 }
-
+.select-input-form{
+  width: 50% !important;
+}
 .form-select {
   width: 25%;
   border: none;
@@ -42,6 +44,7 @@
 .form-select > option {
   background-color: #fff;
 }
+
 .check-container{
   display: flex;
   align-items: center;
@@ -78,6 +81,18 @@
 .yiliz-container > button:hover {
   background-color: #fff;
   color: #272735;
+}
+@media screen and (min-width:416px) and (max-width:752px) {
+  .select-input-container{
+    display: block;
+  }
+  .select-input-form{
+    width: 80% !important;
+    margin-bottom: 25px;
+  }
+  .check-container{
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 415px) {
   .select-input-container{

@@ -6,13 +6,15 @@
   outline: none !important;
   outline-style: none !important;
   outline-color: none !important;
+  margin-right: 20px;
 }
 .modal-button:focus {
   outline: none !important;
   outline-style: none !important;
-  outline-color: none !important;
-  background-color: red !important;
+  outline-color: 2px solid black !important;
+  background-color: #f8f9fa !important;
   border: none !important;
+  color: #3a384a;
 }
 .modal-button:hover {
   color: #3a384a;
@@ -129,15 +131,29 @@
   border-radius: 30px;
   margin-top: 25px;
 }
-@media screen and (max-width: 986px) {
+@media screen and (max-width: 991px) {
   .modal-button {
     margin: 0px !important;
+    margin-bottom: 7px !important;
     padding: 0px !important;
     width: 14% !important;
   }
+  .pattern-img-container{
+    display: none;
+  }
+  .sign-in-container{
+    width: 80%;
+    padding: 20px 45px;
+  }
+
 }
 @media screen and (max-width: 885px) {
   .modal-button {
-    width: 125px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 155px !important;
+    margin-bottom: 5px !important;
+    position: relative;
+    left: -3% !important;
   }
 }

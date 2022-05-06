@@ -14,8 +14,8 @@ const Trend100 = () => {
     <div>
       <Header />
       <div className="container pt-5">
-        <div className="row">
-          <div className="col-lg-8 col-sm-12 col-12">
+        <div className="row w-100">
+          <div className="col-lg-6 col-md-12 col-sm-12 col-12">
             <h1 className="t-t">
               Trend{" "}
               <span>
@@ -26,23 +26,23 @@ const Trend100 = () => {
               </span>
             </h1>
           </div>
-          <div className="col-lg-4 col-sm12 col-12">
+          <div className="col-lg-6 col-md-8 col-sm-8 col-11">
             <div className="social_icon ">
               <p className="paylas">Share</p>
               <p className="tweeter">
-                <i className="fab fa-twitter-square i-icon"></i>
+              <i class="fa-brands fa-twitter i-icon "></i>
               </p>
               <p className="facebook">
-                <i className="fab fa-facebook-square i-icon"></i>
+                <i className="fa-brands fa-facebook-f i-icon"></i>
               </p>
               <p className="linkedIn">
-                <i className="fab fa-linkedin i-icon"></i>
+                <i className="fa-brands fa-linkedin i-icon"></i>
               </p>
               <p className="whatsapp">
-                <i className="fab fa-whatsapp-square i-icon"></i>
+                <i className="fa-brands fa-whatsapp i-icon"></i>
               </p>
               <p className="more">
-                <i className="fas fa-plus i-icon"></i>
+                <i className="fa-solid fa-plus i-icon"></i>
               </p>
             </div>
           </div>
@@ -54,7 +54,7 @@ const Trend100 = () => {
       <div className="container pt-5 p-5">
         <div className="row fw-bold pt-5" style={{ color: "#afb0b6" }}>
           <div className="col">
-            <p className="">
+            <p className="trend-brand">
               <small>Brand</small>
             </p>
           </div>

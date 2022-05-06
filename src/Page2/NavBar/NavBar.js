@@ -8,7 +8,7 @@ const NavBar = () => {
       <Navbar bg="light" expand="lg">
         <NavLink
           to="/"
-          className={(navinfo) => (navinfo.isActive ? "active" : "unactive")}>
+          className={(navinfo) => (navinfo.isActive ? "actives" : "unactive")}>
           <img src={logo} className="header-img" alt="" />
         </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -17,7 +17,7 @@ const NavBar = () => {
             <NavLink
               to="/kurumsal-uyelik"
               className={(navinfo) =>
-                navinfo.isActive ? "active" : "unactive"
+                navinfo.isActive ? "actives" : "unactive"
               }>
               Corporate Membership
             </NavLink>
@@ -25,14 +25,14 @@ const NavBar = () => {
             <NavLink
               to="/reklam-cozumleri"
               className={(navinfo) =>
-                navinfo.isActive ? "active" : "unactive"
+                navinfo.isActive ? "actives" : "unactive"
               }>
               Advertising Solutions
             </NavLink>
             <NavLink
               to="/ace-odulleri"
               className={(navinfo) =>
-                navinfo.isActive ? "active" : "unactive"
+                navinfo.isActive ? "actives" : "unactive"
               }>
               Ace Rewards
             </NavLink>
@@ -41,7 +41,7 @@ const NavBar = () => {
             <NavLink
               to="/sikayetyaz"
               className={(navinfo) =>
-                navinfo.isActive ? "active" : "unactive"
+                navinfo.isActive ? "actives" : "unactive"
               }>
               Write A Complaint
             </NavLink>

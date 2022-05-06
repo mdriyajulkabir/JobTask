@@ -1,18 +1,18 @@
 import React from "react";
 import Footer from "../Home/Footer/Footer";
 import Header from "../Home/Header/Header";
-import MarkaInput from "./MarkaInput/MarkaInput";
+import BrandComparision from "./BrandComparision/BrandComparision";
 import Popular from "./Popular/Popular";
 
-const MarkaKarsilastir = () => {
+const CompareBrands = () => {
   return (
     <div>
       <Header />
-      <MarkaInput />
+      <BrandComparision />
       <Popular />
       <Footer />
     </div>
   );
 };
 
-export default MarkaKarsilastir;
+export default CompareBrands;

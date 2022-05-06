@@ -8,20 +8,21 @@ const BrandComparison = () => {
         <br />
         <h4 className="fw-light marka-title">
           <span className="text-white">
-          Every day, hundreds of thousands of people come to complain before <br /> shopping.
+            Every day, hundreds of thousands of people come to complain before{" "}
+            <br /> shopping.
           </span>{" "}
           <span className="text-success"> Here he decides</span>{" "}
-          <span className="text-white">which brand to choose .
-</span>
+          <span className="text-white">which brand to choose .</span>
         </h4>
         <p className="karma-p">
-        Compare the performances of brands in customer satisfaction and <br />
-        complaint management, and make your decision easily.
-
+          Compare the performances of brands in customer satisfaction and <br />
+          complaint management, and make your decision easily.
         </p>
         <div>
           <input type="text" placeholder="1. Brand" className="karma-input" />
-          <span style={{ color: "#686677" }} className='karma-span'>with</span>
+          <span style={{ color: "#686677" }} className="karma-span">
+            with
+          </span>
           <input type="text" placeholder="1. Brand" className="karma-input-2" />
 
           <input type="button" id="karma-btn" value="Compare" />

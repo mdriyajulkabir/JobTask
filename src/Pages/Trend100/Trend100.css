@@ -14,17 +14,21 @@
 }
 .social_icon {
   display: flex;
+  justify-content: space-between;
 }
-.social_icon p {
+/* .social_icon p {
   margin-left: 17px;
-}
+} */
 .i-icon {
-  font-size: 35px;
+  font-size: 19px;
   border-radius: 30px;
-  color: #272635;
+  color: #fff;
+  padding: 5px 20px;
+  background-color: #272635;
 }
-.i-icon:hover {
-  color: #afb0b6;
+.i-icon:hover{
+  background-color: #afb0b6;
+  color: #f0f1f7;
   cursor: pointer;
 }
 .tt-text {
@@ -55,5 +59,14 @@
   }
   .t-t{
     margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .tt-text, .trend-brand{
+    display: none;
+  }
+  .paylas{
+    display: none;
   }
 }

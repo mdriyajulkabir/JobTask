@@ -4,9 +4,9 @@ import { Col, Nav, Row, Tab } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import logo from "../../images/logo.svg";
 import avater from "../../images/avatar.png";
-import "./SikayetYaz.css";
+import "./WriteComplement.css";
 import Modals from "../Home/Modals/Modals";
-const SikayetYaz = () => {
+const WriteComplement = () => {
   return (
     <div className="sikayetyaz-container">
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
@@ -23,12 +23,12 @@ const SikayetYaz = () => {
             <i class="fa-solid fa-pencil edit-icon"></i> <br />
             <h1 className="sikayetyaz-header">Create Complement</h1>
             <Row>
-              <Col sm={7}>
+              <Col sm={12}>
                 <Nav className="flex-column tab-container">
                   <Nav.Item className=" ">
-                    <Nav.Link eventKey="first" className=" nav-active">
+                    <Nav.Link eventKey="first" className=" nav-active ">
                       <div className="tab-name">
-                        <span className="tab-number">1</span> Complaint Detail
+                        <span className="tab-number">1</span> <span id="complain-detail">Complaint Detail</span>
                       </div>
                     </Nav.Link>
                   </Nav.Item>
@@ -139,4 +139,4 @@ const SikayetYaz = () => {
   );
 };
 
-export default SikayetYaz;
+export default WriteComplement;
