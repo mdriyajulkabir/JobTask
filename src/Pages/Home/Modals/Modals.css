@@ -33,16 +33,19 @@
 }
 .modal-body {
   background-color: #f4f5f9;
-  overflow-y: hidden;
+  overflow-y: hidden !important;
 }
 .pattern-img {
-  margin: 0;
+  margin: 0px !important;
+  padding: 0px !important;
   border-radius: 0px 0px 0px 50px;
   width: 100%;
   height: 560px;
   position: relative;
+  top: -7%;
   left: -9%;
 }
+
 .sign-in-container {
   width: 50%;
   padding: 20px 75px;
@@ -142,10 +145,29 @@
     display: none;
   }
   .sign-in-container{
-    width: 80%;
+    width: 90%;
     padding: 20px 45px;
   }
-
+  .btn-container {
+    display: block;
+    padding: 40px 0px;
+  }
+  .facebook-btn{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .google-btn{
+    width: 100%;
+  }
+  .modals {
+    padding: 0px !important;
+    border-radius: 40px !important;
+    margin-top: 20px;
+    margin-left: 29px;
+    height: 85% !important;
+    width: 90%;
+    background-color: #f4f5f9;
+  }
 }
 @media screen and (max-width: 885px) {
   .modal-button {
@@ -155,5 +177,27 @@
     margin-bottom: 5px !important;
     position: relative;
     left: -3% !important;
+  }
+}
+@media screen and (max-width:499px) {
+  .modals{
+    height: 70% !important;
+    margin-left: 10px;
+  }
+  .sign-in-container{
+    padding: 20px 10px;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1301px) {
+  .btn-container{
+    display: block;
+    padding: 30px 0px;
+  }
+  .facebook-btn{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .google-btn{
+    width: 100%;
   }
 }
