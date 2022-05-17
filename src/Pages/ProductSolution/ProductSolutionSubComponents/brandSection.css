@@ -1,0 +1,10 @@
+.brand-body {
+  background-color: #eeeeee;
+}
+.brand-body img {
+  height: 120px;
+  width: 120px;
+}
+.border-radius {
+  border-radius: 14px;
+}

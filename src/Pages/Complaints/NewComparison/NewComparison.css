@@ -1,0 +1,50 @@
+.new-comparison-container {
+  width: 110%;
+  margin: auto;
+  background-color: #272635;
+  color: #fff;
+  padding: 15px;
+  border-radius: 30px;
+}
+.new-comparison-container > h3 {
+  padding-left: 17px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.new-comparison {
+  text-align: center;
+}
+.new-comparison-input {
+  font-size: 18px;
+  width: 90%;
+  padding: 14px 0px;
+  padding-left: 19px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: #3a384a;
+  margin-bottom: 15px;
+}
+.comparison-btn {
+  width: 90%;
+  border: none;
+  padding: 10px 0px;
+  font-size: 18px;
+  color: #7c7b85;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.comparison-btn:hover {
+  background-color: #3ad08f;
+  color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+  .new-comparison-container {
+    width: 100%;
+  }
+}

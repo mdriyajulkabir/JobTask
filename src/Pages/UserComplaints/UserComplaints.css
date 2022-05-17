@@ -1,0 +1,58 @@
+.brand-logo {
+  height: 150px;
+}
+.user-complaints-post-container {
+  margin-bottom: 10px;
+  padding: 48px;
+}
+.user-complaints-post-img {
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  margin-right: 20px;
+}
+.user-complaints-post-owner {
+  color: #3a3a3a;
+}
+.user-complaints-post-from {
+  color: #695de9;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.user-complaints-post-time {
+  position: relative;
+  top: -5%;
+  color: #7c7b85;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.user-complaints-post-title {
+  color: #3a3a3a;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  padding-bottom: 18px;
+  padding-top: 5px;
+}
+.user-complaints-post-description {
+  letter-spacing: 0.5px;
+  color: #636363;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.user-complaints-post-read-more {
+  color: #3ad08f;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.user-complaints-post-like-comment {
+  color: #7c7b85;
+  width: 50%;
+  /* cursor: pointer; */
+}
+.user-complaints-post-like-comment > h5 {
+  cursor: pointer;
+}
+.user-complaints-post-like-comment > h5 > i {
+  margin-right: 10px;
+}

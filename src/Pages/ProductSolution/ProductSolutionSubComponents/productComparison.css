@@ -1,0 +1,40 @@
+.marka-inputbody {
+  margin: 40px 0px;
+}
+.marka-input-container {
+  background-color: #272635;
+  border-radius: 20px;
+}
+.marka-input-container > h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  margin-bottom: 45px;
+}
+.marka-input {
+  color: #fff;
+  width: 100%;
+  background-color: #3a384a;
+  height: 53px;
+  border: 1px solid #3a384a;
+  border-radius: 20px;
+  outline: none;
+  padding: 13px 0px;
+  padding-left: 30px;
+  padding-right: 55px;
+  font-weight: bold;
+}
+.marka-input-container > .row > p {
+  font-size: 22px;
+}
+.marka-button {
+  color: #fff;
+  background-color: #3ad08f;
+  border-color: #3ad08f;
+  padding: 13px 53px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 1px solid #afb0b6;
+  font-weight: bold;
+}

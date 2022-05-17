@@ -2,16 +2,16 @@
 import React from "react";
 import Footer from "../Home/Footer/Footer";
 import Header from "../Home/Header/Header";
-import "./Sikayetler.css";
-import TumSikayetler from "./TumSikayetler/TumSikayetler";
-const Sikayetler = () => {
+import "./Complaints.css";
+import AllComplaints from "./AllComplaints/AllComplaints";
+const Complaints = () => {
   return (
     <div className="sikayetler-container">
       <Header />
-      <TumSikayetler />
+      <AllComplaints />
       <Footer />
     </div>
   );
 };
 
-export default Sikayetler;
+export default Complaints;

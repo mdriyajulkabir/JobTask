@@ -1,0 +1,28 @@
+.filter-container {
+  background-color: #272635;
+  color: #383838;
+  margin-top: 50px;
+  padding: 40px 30px;
+  border-radius: 20px;
+}
+.filter-search {
+  background-color: #3a384a;
+  color: #fff;
+  width: 100%;
+  margin-top: 19px;
+  outline: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 30px;
+}
+.filter-submit-btn {
+  border: none;
+  outline: none;
+  background-color: #3a384a;
+  position: absolute;
+  right: 5%;
+  bottom: 15%;
+  color: #fff;
+}

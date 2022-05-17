@@ -1,0 +1,141 @@
+
+.complaints-details-header{
+    padding-left: 50px;
+    margin-bottom: 40px;
+}
+.complaints-details-header>h1{
+    color: #3a3a3a;
+    letter-spacing: 0.7px;
+    font-weight: 700;
+}
+.complaints-owner-time{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.complaints-owner-time>img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.complaints-owner-time>h5{
+    margin-right: 15px;
+}
+.complaints-owner-time>p{
+    padding-top: 12px;
+}
+.complaints-details-description{
+    border-left: 1px solid #e0e0e0;
+    margin-left: 25px;
+    padding-left: 50px;
+}
+.complaints-details-description>h4{
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #636363;
+    padding-right: 40px;
+}
+.complaints-details-img{
+    width: 90%;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.complaints-reply-time{
+    display: flex;
+    align-items: center;
+}
+.complaints-reply-time>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+.complaints-reply-time>h5{
+    margin-right: 15px;
+}
+.complaints-reply-time>p{
+    padding-top: 12px;
+}
+.complaints-reply-description{
+    margin-left: 55px;
+    margin-top: 40px;
+    padding: 20px 35px;
+    background-color: #f4f5f9;
+    border-radius: 25px;
+}
+.complaints-reply-description>p{
+    font-size: 20px;
+}
+
+/* login register */
+.complaints-login-register-container{
+ width: 55%;   
+}
+.complaints-login-register{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-radius: 25px 25px 0px 0px;
+    border-left: 0.1px solid #7c7b86;
+    border-top: 0.5px solid #7c7b86;
+    border-right: 0.5px solid #7c7b86;
+    padding-top:20px;
+    padding-left:30px;
+    padding-bottom:20px;
+}
+.complaints-login-register>img{
+    height: 45px;
+    margin-right: 20px;
+}
+.complaints-login-register>p{
+    font-size: 20px;
+    padding-top: 10px;
+    color: #7c7b86;
+    font-weight: 400;
+}
+.complaints-login-register>p>span{
+    font-weight: 700;
+    font-size: 21px;
+}
+.complaints-login-register>p>span:hover{
+    color: #695de9;
+}
+.complaints-login-comment{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: #dadbe2;
+    padding: 20px 25px;
+    border-radius: 0px 0px 25px 25px;
+}
+.complaints-login-comment>p{
+    font-size: 16px;
+}
+.complaints-login-comment>p>i{
+    font-size: 22px;
+}
+.complaints-login-comment>button{
+    padding: 15px 20px;
+    border: none;
+    background-color: #b3f3d3;
+    color: #fff;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:991px) {
+    .complaints-login-register-container{
+        width: 90%;
+    }
+}
+@media screen and (max-width:775px) {
+    .complaints-reply-description{
+        margin-left: 10px;
+    }
+}

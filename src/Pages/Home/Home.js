@@ -11,13 +11,13 @@ import StarRanking from "./StarRanking/StarRanking";
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <Header />
       <Banner />
       <SliderMain />
       <BrandComparison />
       <StarRanking />
-      <Sikayetvar />
+      <Sikayetvar /> 
       <Sayılarla />
       <Tuketici />
       <Footer />

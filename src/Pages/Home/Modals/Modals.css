@@ -201,3 +201,7 @@
     width: 100%;
   }
 }
+.aja{
+  display: flex;
+  flex-direction: column;
+}

@@ -13,6 +13,7 @@
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "react-slick": "^0.28.1",
+    "rsuite": "^5.12.0",
     "slick-carousel": "^1.8.1",
     "swiper": "^8.1.3",
     "web-vitals": "^2.1.4"

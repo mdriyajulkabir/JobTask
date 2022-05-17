@@ -12,7 +12,7 @@
   letter-spacing: 0.7px;
   margin-bottom: 45px;
 }
-.marka-input {
+.marka-input-1 {
   color: #fff;
   background-color: #3a384a;
   height: 53px;
@@ -53,7 +53,7 @@
   font-weight: bold;
 }
 @media screen and (min-width:416px) and (max-width: 1208px) {
-  .marka-input{
+  .marka-input-1{
     width: 100%;
     margin-bottom: 10px;
   }
@@ -83,7 +83,7 @@
   .marka-input-container > h1 {
     letter-spacing: 0px;
   }
-  .marka-input {
+  .marka-input-1 {
     padding: 13px 0px;
     padding-left: 30px;
     padding-right: 55px;
