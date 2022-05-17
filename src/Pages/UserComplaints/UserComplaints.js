@@ -8,20 +8,18 @@ const UserComplaints = () => {
     <>
       <Header />
       <div className="container">
-        <div className="row justify-contain-center align-items-center brand-logo">
-          <div className="col-1">
+        <div className="row w-100 justify-contain-center align-items-center brand-logo">
+          <div className="col-lg-1 col-3">
             <img className="img-fluid rounded-circle" src={logo} alt="" />
           </div>
-          <div className="col-9">
+          <div className="col-lg-9 col-9">
             <h5>Heri</h5>
           </div>
         </div>
-        <div>
-          <div
-            className="btn-group"
-            role="group"
-            aria-label="Basic radio toggle button group">
-            <input
+        
+        <div className="row w-100">
+          <div className="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
+          <input
               type="radio"
               className="btn-check"
               name="btnradio"
@@ -30,12 +28,13 @@ const UserComplaints = () => {
               checked
             />
             <label
-              className="btn btn-outline-primary rounded-pill mx-3 px-4"
+              className="btn btn-outline-primary rounded-pill w-100"
               for="btnradio1">
               Complaints(1)
             </label>
-
-            <input
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
+          <input
               type="radio"
               className="btn-check"
               name="btnradio"
@@ -43,12 +42,13 @@ const UserComplaints = () => {
               autocomplete="off"
             />
             <label
-              className="btn btn-outline-primary rounded-pill mx-3 px-3"
+              className="btn btn-outline-primary rounded-pill w-100"
               for="btnradio2">
               Complaints Wrote Comments(0)
             </label>
-
-            <input
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
+          <input
               type="radio"
               className="btn-check"
               name="btnradio"
@@ -56,7 +56,7 @@ const UserComplaints = () => {
               autocomplete="off"
             />
             <label
-              className="btn btn-outline-primary rounded-pill mx-3 px-3"
+              className="btn btn-outline-primary rounded-pill w-100"
               for="btnradio3">
               Supported Complaints(0)
             </label>
